@@ -12,6 +12,11 @@ const getFileAsString = (pathName) => {
     return file
 }
 
+const putFileAsString = (pathName, fileAsString) => {    
+    const file = fs.writeFileSync(`./dayzOffline.chernarusplus/${pathName}`, fileAsString, 'utf8')
+    return file
+}
+
 const getJsFromXml = async (xmlString) => {
     return new Promise((resolve, reject) => {
         const parser = new xml2js.Parser()
@@ -21,12 +26,21 @@ const getJsFromXml = async (xmlString) => {
     })
 }
 
+const getStringFromJs = async (js) => {
+    return new Promise((resolve, reject) => {
+        const builder = new xml2js.Builder()
+        const xmlStringFromJs = builder.buildObject({ ...js })
+        resolve(xmlStringFromJs)
+    })
+}
+
 const main = async () => {
     console.clear()
     termBreak()
     const typesXmlString = getFileAsString(`db/types.xml`)
     const typesJsFromXml = await getJsFromXml(typesXmlString)
-    console.log(typesJsFromXml)
+    const typesXmlStringFromJs = await getStringFromJs(typesJsFromXml)
+    putFileAsString(`db/types.xml`, typesXmlStringFromJs)
 }
 
 main()
