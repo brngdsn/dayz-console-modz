@@ -28,7 +28,7 @@ const getJsFromXml = async (xmlString) => {
 
 const getStringFromJs = async (js) => {
     return new Promise((resolve, reject) => {
-        const builder = new xml2js.Builder()
+        const builder = new xml2js.Builder({ renderOpts: { 'pretty': true, 'indent': `    `, 'newLine': `\n` } })
         const xmlStringFromJs = builder.buildObject({ ...js })
         resolve(xmlStringFromJs)
     })
