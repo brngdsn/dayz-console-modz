@@ -4,6 +4,7 @@
   "description": "xml files for console modding",
   "main": "src/index.js",
   "scripts": {
+    "dev": "nodemon --watch src/* src/index.js",
     "test": "npm run test"
   },
   "keywords": [
@@ -13,5 +14,10 @@
     "mod"
   ],
   "author": "brn.gdsn@gmail.com",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "dayz-xml-tools": "github:brngdsn/dayz-xml-tools",
+    "nodemon": "^2.0.13",
+    "xml2js": "^0.4.23"
+  }
 }
