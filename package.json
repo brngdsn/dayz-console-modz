@@ -1,0 +1,17 @@
+{
+  "name": "dayz-mods",
+  "version": "0.2.0",
+  "description": "xml files for console modding",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "keywords": [
+    "dayz",
+    "xml",
+    "console",
+    "mod"
+  ],
+  "author": "brn.gdsn@gmail.com",
+  "license": "ISC"
+}
