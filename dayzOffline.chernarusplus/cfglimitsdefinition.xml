@@ -9,11 +9,24 @@
         <category name="weapons"/>
         <category name="books"/>
         <category name="explosives"/>
+        <!-- added  -->
+        <category name="xtools"/>
+        <category name="xcontainers"/>
+        <category name="xclothes"/>
+        <category name="xvehiclesparts"/>
+        <category name="xfood"/>
+        <category name="xweapons"/>
+        <category name="xbooks"/>
+        <category name="xexplosives"/>
     </categories>
     <tags>
         <tag name="floor"/>
         <tag name="shelves"/>
         <tag name="ground"/>
+        <!-- added -->
+        <tag name="xfloor"/>
+        <tag name="xshelves"/>
+        <tag name="xground"/>
     </tags>
     <usageflags>
         <usage name="Military"/>
@@ -32,11 +45,33 @@
         <usage name="Lunapark"/>
         <usage name="SeasonalEvent"/>
 		<usage name="ContaminatedArea"/>
+        <!-- added -->
+        <usage name="xMilitary"/>
+        <usage name="xPolice"/>
+        <usage name="xMedic"/>
+        <usage name="xFirefighter"/>
+        <usage name="xIndustrial"/>
+        <usage name="xFarm"/>
+        <usage name="xCoast"/>
+        <usage name="xTown"/>
+        <usage name="xVillage"/>
+        <usage name="xHunting"/>
+        <usage name="xOffice"/>
+        <usage name="xSchool"/>
+        <usage name="xPrison"/>
+        <usage name="xLunapark"/>
+        <usage name="xSeasonalEvent"/>
+		<usage name="xContaminatedArea"/>
     </usageflags>
     <valueflags>
         <value name="Tier1"/>
         <value name="Tier2"/>
         <value name="Tier3"/>
         <value name="Tier4"/>
+        <!-- added -->
+        <value name="xTier1"/>
+        <value name="xTier2"/>
+        <value name="xTier3"/>
+        <value name="xTier4"/>
     </valueflags>
 </lists>
