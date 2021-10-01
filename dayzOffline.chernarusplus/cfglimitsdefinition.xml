@@ -12,10 +12,17 @@
         <!-- added  -->
         <category name="xtools"/>
         <category name="xcontainers"/>
+        <category name="xKillboxContainers"/>
         <category name="xclothes"/>
         <category name="xvehiclesparts"/>
         <category name="xfood"/>
+        <category name="xFood"/>
         <category name="xweapons"/>
+        <category name="xKillboxWeapons"/>
+        <category name="xMagazines"/>
+        <category name="xAmmo"/>
+        <category name="xKillboxClothes"/>
+        <category name="xKillboxTools"/>
         <category name="xbooks"/>
         <category name="xexplosives"/>
     </categories>

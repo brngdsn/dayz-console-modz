@@ -11,10 +11,310 @@
 				<default name="clusterMatrix" de="TrajectoryHumus" width="12" height="12"/>
 				<default name="clusterMatrix" de="TrajectoryPear" width="12" height="12"/>
 				<default name="clusterMatrix" de="TrajectoryPlum" width="12" height="12"/>
-<!--
-				<default name="clusterMatrix" de="TrajectoryStumps" width="12" height="12"/>
--->
+				<!-- <default name="clusterMatrix" de="TrajectoryStumps" width="12" height="12"/> -->
 		</defaults>
+
+
+
+    <group name="Socket_AllPistols_1" lootmax="1">
+      <container name="lootFloor" lootmax="1">
+      </container>
+      <dispatch>
+        <proxy type="Glock19" pos="0 0 0" rpy="0 0 0" />
+        <proxy type="FNX45" pos="0.25 0 0" rpy="0 0 0" />
+        <proxy type="CZ75" pos="0.5 0 0" rpy="0 0 0" />
+        <proxy type="MKII" pos="0.75 0 0" rpy="0 0 0" />
+        <proxy type="Magnum" pos="1 0 0" rpy="0 0 0" />
+        <proxy type="MakarovIJ70" pos="1.25 0 0" rpy="0 0 0" />
+        <proxy type="Colt1911" pos="1.5 0 0" rpy="0 0 0" />
+        <proxy type="Deagle" pos="1.75 0 0" rpy="0 0 0" />
+        <proxy type="Deagle_Gold" pos="2 0 0" rpy="0 0 0" />
+        <proxy type="Engraved1911" pos="2.25 0 0" rpy="0 0 0" />
+        <proxy type="Flaregun" pos="2.5 0 0" rpy="0 0 0" />
+      </dispatch>
+    </group>
+  
+    <group name="Socket_PoliceShotgunsAndAutos_1" lootmax="1">
+      <container name="lootFloor" lootmax="1">
+      </container>
+      <dispatch>
+        <proxy type="Izh43Shotgun" pos="0 0 0" rpy="0 0 0" />
+        <proxy type="Saiga" pos="0.25 0 0" rpy="0 0 0" />
+        <proxy type="Mp133Shotgun" pos="0.5 0 0" rpy="0 0 0" />
+        <proxy type="CZ61" pos="0.75 0 0" rpy="0 0 0" />
+        <proxy type="MP5K" pos="1.00 0 0" rpy="0 0 0" />
+        <proxy type="UMP45" pos="1.25 0 0" rpy="0 0 0" />
+      </dispatch>
+    </group>
+  
+    <group name="Socket_MilitaryAutoWeapons_1" lootmax="1">
+      <container name="lootFloor" lootmax="1">
+      </container>
+      <dispatch>
+        <proxy type="AK101" pos="0 0 0" rpy="0 0 0" />
+        <proxy type="AK74" pos="0.25 0 0" rpy="0 0 0" />
+        <proxy type="AKM" pos="0.5 0 0" rpy="0 0 0" />
+        <proxy type="AKS74U" pos="0.75 0 0" rpy="0 0 0" />
+        <proxy type="M16A2" pos="1 0 0" rpy="0 0 0" />
+        <proxy type="M4A1" pos="1.25 0 0" rpy="0 0 0" />
+        <proxy type="M4A1_Green" pos="1.5 0 0" rpy="0 0 0" />
+        <proxy type="FAMAS" pos="1.5 0 0" rpy="0 0 0" />
+      </dispatch>
+    </group>
+  
+    <group name="Socket_MilitaryRifleWeapons_1" lootmax="1">
+      <container name="lootFloor" lootmax="1">
+      </container>
+      <dispatch>
+        <proxy type="VSS" pos="0 0 0" rpy="0 0 0" />
+        <proxy type="ASVAL" pos="0.25 0 0" rpy="0 0 0" />
+        <proxy type="FAL" pos="0.5 0 0" rpy="0 0 0" />
+        <proxy type="SKS" pos="0.75 0 0" rpy="0 0 0" />
+        <proxy type="SVD" pos="1 0 0" rpy="0 0 0" />
+        <proxy type="Scout" pos="1.25 0 0" rpy="0 0 0" />
+      </dispatch>
+    </group>
+  
+    <group name="Socket_HuntingRifleWeapons_1" lootmax="1">
+      <container name="lootFloor" lootmax="1">
+      </container>
+      <dispatch>
+        <proxy type="Izh18" 				pos="0 0 0" rpy="0 0 0" />
+        <proxy type="CZ527" 				pos="0.25 0 0" rpy="0 0 0" />
+        <proxy type="Ruger1022" 			pos="0.5 0 0" rpy="0 0 0" />
+        <proxy type="Repeater" 				pos="0.75 0 0" rpy="0 0 0" />
+        <proxy type="B95" 					pos="1 0 0" rpy="0 0 0" />
+        <proxy type="Winchester70" 			pos="1.25 0 0" rpy="0 0 0" />
+        <proxy type="Winchester70_Black" 	pos="1.5 0 0" rpy="0 0 0" />
+        <proxy type="Mosin9130" 			pos="1.75 0 0" rpy="0 0 0" />
+        <proxy type="Mosin9130_Black" 		pos="2 0 0" rpy="0 0 0" />
+      </dispatch>
+    </group>
+
+	<!-- AMMO -->
+    <group name="Socket_SmallCaliburAmmoBoxes_1" lootmax="1">
+      <container name="lootFloor" lootmax="1">
+      </container>
+      <dispatch>
+        <proxy type="AmmoBox_00buck_10rnd" pos="0 0 0" rpy="0 0 0" />
+        <proxy type="AmmoBox_12gaRubberSlug_10Rnd" pos="0.25 0 0" rpy="0 0 0" />
+        <proxy type="AmmoBox_12gaSlug_10Rnd" pos="0.5 0 0" rpy="0 0 0" />
+        <proxy type="AmmoBox_22_50Rnd" pos="0.75 0 0" rpy="0 0 0" />
+        <proxy type="AmmoBox_357_20Rnd" pos="1 0 0" rpy="0 0 0" />
+        <proxy type="AmmoBox_380_35rnd" pos="1.25 0 0" rpy="0 0 0" />
+        <proxy type="AmmoBox_45ACP_25rnd" pos="1.5 0 0" rpy="0 0 0" />
+      </dispatch>
+    </group>
+  
+    <group name="Socket_LargeCaliburAmmoBoxes_1" lootmax="1">
+      <container name="lootFloor" lootmax="1">
+      </container>
+      <dispatch>
+        <proxy type="AmmoBox_545x39Tracer_20Rnd" 	pos="0 0 0" rpy="0 0 0" />
+        <proxy type="AmmoBox_545x39_20Rnd" 				pos="0 0.25 0" rpy="0 0 0" />
+        <proxy type="AmmoBox_556x45Tracer_20Rnd" 	pos="0.25 0 0" rpy="0 0 0" />
+        <proxy type="AmmoBox_556x45_20Rnd" 				pos="0.25 0.25 0" rpy="0 0 0" />
+        <proxy type="AmmoBox_762x39Tracer_20Rnd" 	pos="0.5 0 0" rpy="0 0 0" />
+        <proxy type="AmmoBox_762x39_20Rnd" 				pos="0.5 0.25 0" rpy="0 0 0" />
+        <proxy type="AmmoBox_762x54Tracer_20Rnd" 	pos="0.75 0 0" rpy="0 0 0" />
+        <proxy type="AmmoBox_762x54_20Rnd" 				pos="0.75 0.25 0" rpy="0 0 0" />
+        <proxy type="AmmoBox_308WinTracer_20Rnd" 	pos="1 0 0" rpy="0 0 0" />
+        <proxy type="AmmoBox_308Win_20Rnd" 				pos="1.25 0.25 0" rpy="0 0 0" />
+        <proxy type="AmmoBox_9x19_25rnd" 					pos="1.5 0 0" rpy="0 0 0" />
+        <proxy type="AmmoBox_9x39AP_20Rnd" 				pos="1.75 0 0" rpy="0 0 0" />
+        <proxy type="AmmoBox_9x39_20Rnd" 					pos="1.75 0.25 0" rpy="0 0 0" />
+      </dispatch>
+    </group>
+  
+    <group name="Socket_SmallCaliburAmmo_1" lootmax="1">
+      <container name="lootFloor" lootmax="1">
+      </container>
+      <dispatch>
+        <proxy type="Ammo_12gaPellets" pos="0 0 0" rpy="0 0 0" />
+        <proxy type="Ammo_12gaRubberSlug" pos="0.25 0 0" rpy="0 0 0" />
+        <proxy type="Ammo_12gaSlug" pos="0.5 0 0" rpy="0 0 0" />
+        <proxy type="Ammo_Flare" pos="0.75 0 0" rpy="0 0 0" />
+        <proxy type="Ammo_FlareBlue" pos="1 0 0" rpy="0 0 0" />
+        <proxy type="Ammo_FlareGreen" pos="1.25 0 0" rpy="0 0 0" />
+        <proxy type="Ammo_FlareRed" pos="1.5 0 0" rpy="0 0 0" />
+        <proxy type="Ammo_22" pos="1.75 0 0" rpy="0 0 0" />
+        <proxy type="Ammo_357" pos="2 0 0" rpy="0 0 0" />
+        <proxy type="Ammo_380" pos="2.25 0 0" rpy="0 0 0" />
+        <proxy type="Ammo_45ACP" pos="2.5 0 0" rpy="0 0 0" />
+      </dispatch>
+    </group>
+  
+    <group name="Socket_LargeCaliburAmmo_1" lootmax="1">
+      <container name="lootFloor" lootmax="1">
+      </container>
+      <dispatch>
+        <proxy type="Ammo_545x39" pos="0 0 0" rpy="0 0 0" />
+        <proxy type="Ammo_545x39Tracer" pos="0.25 0 0" rpy="0 0 0" />
+        <proxy type="Ammo_556x45" pos="0.5 0 0" rpy="0 0 0" />
+        <proxy type="Ammo_556x45Tracer" pos="0.75 0 0" rpy="0 0 0" />
+        <proxy type="Ammo_762x39" pos="1 0 0" rpy="0 0 0" />
+        <proxy type="Ammo_762x39Tracer" pos="1.25 0 0" rpy="0 0 0" />
+        <proxy type="Ammo_762x54" pos="1.5 0 0" rpy="0 0 0" />
+        <proxy type="Ammo_762x54Tracer" pos="1.75 0 0" rpy="0 0 0" />
+        <proxy type="Ammo_308Win" pos="2 0 0" rpy="0 0 0" />
+        <proxy type="Ammo_308WinTracer" pos="2.25 0 0" rpy="0 0 0" />
+        <proxy type="Ammo_9x19" pos="2.5 0 0" rpy="0 0 0" />
+        <proxy type="Ammo_9x39" pos="2.75 0 0" rpy="0 0 0" />
+        <proxy type="Ammo_9x39AP" pos="3 0 0" rpy="0 0 0" />
+      </dispatch>
+    </group>
+  
+    <group name="Socket_AutoMilMags_1" lootmax="1">
+      <container name="lootFloor" lootmax="1">
+      </container>
+      <dispatch>
+        <proxy type="Mag_AK101_30Rnd" pos="0 0 0" rpy="0 0 0" />
+        <proxy type="Mag_AK74_30Rnd" pos="0.25 0 0" rpy="0 0 0" />
+        <proxy type="Mag_AK74_45Rnd" pos="0.5 0 0" rpy="0 0 0" />
+        <proxy type="Mag_AKM_30Rnd" pos="0.75 0 0" rpy="0 0 0" />
+        <proxy type="Mag_AKM_Drum75Rnd" pos="1 0 0" rpy="0 0 0" />
+        <proxy type="Mag_AKM_Palm30Rnd" pos="1.25 0 0" rpy="0 0 0" />
+        <proxy type="Mag_CMAG_10Rnd" pos="1.5 0 0" rpy="0 0 0" />
+        <proxy type="Mag_CMAG_20Rnd" pos="1.75 0 0" rpy="0 0 0" />
+        <proxy type="Mag_CMAG_30Rnd" pos="2 0 0" rpy="0 0 0" />
+        <proxy type="Mag_CMAG_40Rnd" pos="2.25 0 0" rpy="0 0 0" />
+        <proxy type="Mag_STANAGCoupled_30Rnd" pos="2.5 0 0" rpy="0 0 0" />
+        <proxy type="Mag_STANAG_30Rnd" pos="2.75 0 0" rpy="0 0 0" />
+        <proxy type="Mag_STANAG_60Rnd" pos="3 0 0" rpy="0 0 0" />
+      </dispatch>
+    </group>
+  
+    <group name="Socket_SmallCaliburMags_1" lootmax="1">
+      <container name="lootFloor" lootmax="1">
+      </container>
+      <dispatch>
+        <proxy type="Mag_Saiga_5Rnd" pos="0 0 0" rpy="0 0 0" />
+        <proxy type="Mag_Saiga_8Rnd" pos="0.25 0 0" rpy="0 0 0" />
+        <proxy type="Mag_Saiga_Drum20Rnd" pos="0.5 0 0" rpy="0 0 0" />
+        <proxy type="Mag_UMP_25Rnd" pos="0.75 0 0" rpy="0 0 0" />
+        <proxy type="Mag_MP5_15Rnd" pos="1 0 0" rpy="0 0 0" />
+        <proxy type="Mag_MP5_30Rnd" pos="1.25 0 0" rpy="0 0 0" />
+        <proxy type="Mag_CZ61_20Rnd" pos="1.50 0 0" rpy="0 0 0" />
+      </dispatch>
+    </group>
+
+    <group name="Socket_SmallCaliburMags_2" lootmax="1">
+      <container name="lootFloor" lootmax="1">
+      </container>
+      <dispatch>
+        <proxy type="Mag_CZ75_15Rnd" pos="0.00 0 0" rpy="0 0 0" />
+        <proxy type="Mag_Deagle_9rnd" pos="0.25 0 0" rpy="0 0 0" />
+        <proxy type="Mag_1911_7Rnd" pos="0.50 0 0" rpy="0 0 0" />
+        <proxy type="Mag_FNX45_15Rnd" pos="0.75 0 0" rpy="0 0 0" />
+        <proxy type="Mag_Glock_15Rnd" pos="1.00 0 0" rpy="0 0 0" />
+        <proxy type="Mag_IJ70_8Rnd" pos="1.25 0 0" rpy="0 0 0" />
+        <proxy type="Mag_MKII_10Rnd" pos="1.25 0 0" rpy="0 0 0" />
+      </dispatch>
+    </group>
+  
+    <group name="Socket_SniperMags_1" lootmax="1">
+      <container name="lootFloor" lootmax="1">
+      </container>
+      <dispatch>
+        <proxy type="Mag_Ruger1022_15Rnd" pos="0 0 0" rpy="0 0 0" />
+        <proxy type="Mag_Ruger1022_30Rnd" pos="0.25 0 0" rpy="0 0 0" />
+        <proxy type="Mag_SVD_10Rnd" pos="0.5 0 0" rpy="0 0 0" />
+        <proxy type="Mag_FAL_20Rnd" pos="0.75 0 0" rpy="0 0 0" />
+        <proxy type="Mag_Scout_5Rnd" pos="1.00 0 0" rpy="0 0 0" />
+        <proxy type="Mag_VAL_20Rnd" pos="1.25 0 0" rpy="0 0 0" />
+        <proxy type="Mag_VSS_10Rnd" pos="1.5 0 0" rpy="0 0 0" />
+        <proxy type="Mag_CZ527_5rnd" pos="1.75 0 0" rpy="0 0 0" />
+      </dispatch>
+    </group>
+  
+	<!-- ATTACHMENTS -->
+    <group name="Socket_Scopes_1" lootmax="1">
+      <container name="lootFloor" lootmax="1">
+      </container>
+      <dispatch>
+        <proxy type="ACOGOptic" pos="0 0 0" rpy="0 0 0" />
+        <proxy type="ACOGOptic_6x" pos="0.25 0 0" rpy="0 0 0" />
+        <proxy type="BUISOptic" pos="0.5 0 0" rpy="0 0 0" />
+        <proxy type="FNP45_MRDSOptic" pos="0.75 0 0" rpy="0 0 0" />
+        <proxy type="HuntingOptic" pos="1 0 0" rpy="0 0 0" />
+        <proxy type="KashtanOptic" pos="1.25 0 0" rpy="0 0 0" />
+        <proxy type="KazuarOptic" pos="1.5 0 0" rpy="0 0 0" />
+        <proxy type="KobraOptic" pos="1.75 0 0" rpy="0 0 0" />
+        <proxy type="M4_CarryHandleOptic" pos="2 0 0" rpy="0 0 0" />
+        <proxy type="M4_T3NRDSOptic" pos="2.25 0 0" rpy="0 0 0" />
+        <proxy type="M68Optic" pos="2.5 0 0" rpy="0 0 0" />
+        <proxy type="NVGoggles" pos="2.75 0 0" rpy="0 0 0" />
+        <proxy type="PSO11Optic" pos="0 0.5 0" rpy="0 0 0" />
+        <proxy type="PSO1Optic" pos="0.25 0.5 0" rpy="0 0 0" />
+        <proxy type="PUScopeOptic" pos="0.5 0.5 0" rpy="0 0 0" />
+        <proxy type="PistolOptic" pos="0.75 0.5 0" rpy="0 0 0" />
+        <proxy type="ReflexOptic" pos="1 0.5 0" rpy="0 0 0" />
+        <proxy type="TLRLight" pos="1.25 0.5 0" rpy="0 0 0" />
+        <proxy type="UniversalLight" pos="1.5 0.5 0" rpy="0 0 0" />
+      </dispatch>
+    </group>
+  
+    <group name="Socket_Suppressors_1" lootmax="1">
+      <container name="lootFloor" lootmax="1">
+      </container>
+      <dispatch>
+        <proxy type="M4_Suppressor" pos="0 0 0" rpy="0 0 0" />
+        <proxy type="AK_Suppressor" pos="0.25 0 0" rpy="0 0 0" />
+        <proxy type="PistolSuppressor" pos="0.5 0 0" rpy="0 0 0" />
+        <proxy type="ImprovisedSuppressor" pos="0.75 0 0" rpy="0 0 0" />
+      </dispatch>
+    </group>
+
+	<!-- QUICK SURVIVE -->
+    <group name="Socket_QuickSurvive_1" lootmax="1">
+      <container name="lootFloor" lootmax="1">
+      </container>
+      <dispatch>
+        <proxy type="BandageDressing" pos="0 0 0" rpy="0 0 0" />
+        <proxy type="BandageDressing" pos="0 0.25 0" rpy="0 0 0" />
+        <proxy type="BandageDressing" pos="0 0.5 0" rpy="0 0 0" />
+        <proxy type="SalineBagIV" pos="0.25 0 0" rpy="0 0 0" />
+        <proxy type="SalineBagIV" pos="0.25 0.25 0" rpy="0 0 0" />
+        <proxy type="PainkillerTablets" pos="0.5 0 0" rpy="0 0 0" />
+        <proxy type="Morphine" pos="0.75 0 0" rpy="0 0 0" />
+        <proxy type="TetracyclineAntibiotics" pos="1 0 0" rpy="0 0 0" />
+        <proxy type="TetracyclineAntibiotics" pos="1 0.25 0" rpy="0 0 0" />
+        <proxy type="TetracyclineAntibiotics" pos="1 0.5 0" rpy="0 0 0" />
+        <proxy type="VitaminBottle" pos="1.25 0 0" rpy="0 0 0" />
+        <proxy type="VitaminBottle" pos="1.25 0.25 0" rpy="0 0 0" />
+        <proxy type="VitaminBottle" pos="1.25 0.5 0" rpy="0 0 0" />
+        <proxy type="Canteen" pos="1.5 0.0 0" rpy="0 0 0" />
+        <proxy type="Canteen" pos="1.5 0.25 0" rpy="0 0 0" />
+        <proxy type="Canteen" pos="1.5 0.5 0" rpy="0 0 0" />
+        <proxy type="TacticalBaconCan" pos="1.75 0 0" rpy="0 0 0" />
+        <proxy type="TacticalBaconCan" pos="1.75 0.25 0" rpy="0 0 0" />
+        <proxy type="TacticalBaconCan" pos="1.75 0.5 0" rpy="0 0 0" />
+        <proxy type="CanOpener" pos="2 0 0" rpy="0 0 0" />
+        <proxy type="CanOpener" pos="2 0.25 0" rpy="0 0 0" />
+		<proxy type="Battery9V" pos="2.25 0 0" rpy="0 0 0" />
+		<proxy type="Battery9V" pos="2.25 0.25 0" rpy="0 0 0" />
+		<proxy type="Battery9V" pos="2.25 0.5 0" rpy="0 0 0" />
+      </dispatch>
+    </group>
+
+	<!-- QUICK CLOTHES -->
+    <group name="Socket_QuickClothes_1" lootmax="1">
+      <container name="lootFloor" lootmax="1">
+      </container>
+      <dispatch>
+        <proxy type="BDUJacket" 			pos="-2 0.25 0" rpy="-90 0 0" />
+        <proxy type="GorkaEJacket_Autumn" 	pos="-1.66 0.25 0" rpy="-90 0 0" />
+        <proxy type="M65Jacket_Khaki" 		pos="-1.33 0.25 0" rpy="-90 0 0" />
+        <proxy type="TTSKOPants" 			pos="-1 0.25 0" rpy="-90 0 0" />
+        <proxy type="USMCPants_Desert" 		pos="-0.66 0.25 0" rpy="-90 0 0" />
+        <proxy type="BDUPants" 				pos="-0.33 0.25 0" rpy="-90 0 0" />
+        <proxy type="PlateCarrierVest" 		pos="0 0.25 0" rpy="-90 0 0" />
+        <proxy type="PlateCarrierVest" 		pos="0.33 0.25 0" rpy="-90 0 0" />
+        <proxy type="PlateCarrierVest" 		pos="0.66 0.25 0" rpy="-90 0 0" />
+      </dispatch>
+    </group>
+
+
 
 		<group name="Land_Shed_M1" lootmax="2">
 				<usage name="Industrial" />
@@ -11921,33 +12221,435 @@
 						<point pos="-3.165771 -16.946526 6.819825" range="1.038574" height="1.508690" />
 				</container>
 		</group>
-		<group name="Wreck_UH1Y" lootmax="17">
-				<usage name="xMilitary" />
-				<container name="lootFloor" lootmax="17">
-						<category name="xtools" />
-						<category name="xcontainers" />
-						<category name="xclothes" />
-						<category name="xweapons" />
-						<tag name="xfloor" />
-						<tag name="xshelves" />
-						<point pos="2.293945 -1.541862 1.939941" range="0.100000" height="1.145172" />
-						<point pos="3.630615 -1.221848 0.478027" range="0.203125" height="1.058037" />
-						<point pos="3.128174 -1.250969 0.282227" range="0.237500" height="1.899963" />
-						<point pos="2.601563 -1.275345 0.026855" range="0.237500" height="1.900002" />
-						<point pos="2.976563 -1.479630 2.021972" range="0.340625" height="1.139282" />
-						<point pos="4.462646 -1.856918 -0.474609" range="0.595988" height="1.900002" />
-						<point pos="2.273926 -1.856918 3.096679" range="0.718352" height="1.900002" />
-						<point pos="1.722656 -1.856918 -1.948730" range="0.821779" height="1.900002" />
-						<point pos="5.276123 -1.856918 4.080566" range="0.827611" height="1.900002" />
-						<point pos="3.192871 -1.856918 -1.159668" range="0.846799" height="1.900002" />
-						<point pos="-2.588379 -1.856918 -0.039551" range="0.898411" height="1.900002" />
-						<point pos="3.540283 -1.856918 4.118164" range="0.908636" height="1.900002" />
-						<point pos="0.502686 -1.856918 2.775879" range="0.942924" height="1.900002" />
-						<point pos="5.894042 -1.856918 0.567383" range="1.068359" height="1.900002" />
-						<point pos="6.488282 -1.856918 2.621094" range="1.069595" height="1.900002" />
-						<point pos="-0.299072 -1.856918 -1.951172" range="1.199951" height="1.900002" />
-						<point pos="-0.732910 -1.856918 0.940430" range="1.199951" height="1.900002" />
-				</container>
+		<group name="Wreck_UH1Y" lootmax="100">
+			<usage name="xContaminatedArea" />
+			<usage name="xMilitary" />
+			<usage name="xPolice" />
+			<usage name="xHunting" />
+			<usage name="xTown" />
+			<usage name="xIndustrial" />
+			<usage name="xMedic"/>
+			<usage name="xFirefighter"/>
+			<container name="lootFloor" lootmax="25">
+				<category name="xKillboxWeapons" />
+				<category name="xMagazines" />
+				<category name="xAmmo" />
+				<point pos="-0.959628 -2.000000 -3.050154" range="2.871481" height="2.000000"></point>
+				<point pos="-4.857477 -2.000000 -0.068426" range="0.114837" height="2.000000"></point>
+				<point pos="-2.508709 -2.000000 -4.919222" range="0.494225" height="2.000000"></point>
+				<point pos="-3.801935 -2.000000 -4.245521" range="3.326182" height="2.000000"></point>
+				<point pos="-2.540166 -2.000000 -4.404191" range="1.073065" height="2.000000"></point>
+				<point pos="-4.875057 -2.000000 -3.338203" range="0.074590" height="2.000000"></point>
+				<point pos="-3.118595 -2.000000 -0.948110" range="2.926313" height="2.000000"></point>
+				<point pos="-0.360144 -2.000000 -0.257591" range="0.789797" height="2.000000"></point>
+				<point pos="-3.415062 -2.000000 -3.331208" range="0.671383" height="2.000000"></point>
+				<point pos="-3.580322 -2.000000 -2.002335" range="1.859680" height="2.000000"></point>
+				<point pos="-1.080505 -2.000000 -1.673244" range="2.176212" height="2.000000"></point>
+				<point pos="-1.469909 -2.000000 -3.642857" range="0.358327" height="2.000000"></point>
+				<point pos="-3.058635 -2.000000 -2.904081" range="1.262494" height="2.000000"></point>
+				<point pos="-1.718066 -2.000000 -0.473952" range="3.828250" height="2.000000"></point>
+				<point pos="-3.234528 -2.000000 -1.365711" range="3.379663" height="2.000000"></point>
+				<point pos="-4.316094 -2.000000 -0.022010" range="3.030833" height="2.000000"></point>
+				<point pos="-0.122922 -2.000000 -0.316533" range="0.722542" height="2.000000"></point>
+				<point pos="-2.432683 -2.000000 -2.553680" range="2.087788" height="2.000000"></point>
+				<point pos="-1.128615 -2.000000 -1.172018" range="3.064016" height="2.000000"></point>
+				<point pos="-2.152144 -2.000000 -4.678714" range="0.556903" height="2.000000"></point>
+				<point pos="-2.804563 -2.000000 -2.220548" range="4.855310" height="2.000000"></point>
+				<point pos="-1.184625 -2.000000 -2.903946" range="1.393027" height="2.000000"></point>
+				<point pos="-3.021636 -2.000000 -0.890418" range="4.902025" height="2.000000"></point>
+				<point pos="-4.571254 -2.000000 -1.812456" range="0.605349" height="2.000000"></point>
+				<point pos="-1.629019 -2.000000 -4.243999" range="3.911671" height="2.000000"></point>
+				<point pos="-1.575551 -2.000000 -2.729365" range="1.271477" height="2.000000"></point>
+				<point pos="-4.537333 -2.000000 -4.812833" range="4.603881" height="2.000000"></point>
+				<point pos="-2.935279 -2.000000 -2.195098" range="1.427051" height="2.000000"></point>
+				<point pos="-3.686907 -2.000000 -4.378028" range="1.379554" height="2.000000"></point>
+				<point pos="-3.212166 -2.000000 -1.174436" range="0.540774" height="2.000000"></point>
+				<point pos="-3.243996 -2.000000 -0.980683" range="1.976329" height="2.000000"></point>
+				<point pos="-0.982449 -2.000000 -4.521551" range="1.149619" height="2.000000"></point>
+				<point pos="-4.475755 -2.000000 -4.838222" range="0.434393" height="2.000000"></point>
+				<point pos="-4.101586 -2.000000 -1.578822" range="1.254893" height="2.000000"></point>
+				<point pos="-4.989266 -2.000000 -1.381735" range="4.627425" height="2.000000"></point>
+				<point pos="-2.831981 -2.000000 -4.962023" range="3.922015" height="2.000000"></point>
+				<point pos="-2.805037 -2.000000 -2.146043" range="3.010640" height="2.000000"></point>
+				<point pos="-0.408530 -2.000000 -4.822650" range="2.028299" height="2.000000"></point>
+				<point pos="-2.673505 -2.000000 -4.336573" range="0.664663" height="2.000000"></point>
+				<point pos="-1.397514 -2.000000 -1.831412" range="0.063281" height="2.000000"></point>
+				<point pos="-2.903576 -2.000000 -4.367261" range="2.878024" height="2.000000"></point>
+				<point pos="-3.763730 -2.000000 -2.906769" range="2.866501" height="2.000000"></point>
+				<point pos="-1.446475 -2.000000 -3.977681" range="0.082175" height="2.000000"></point>
+				<point pos="-2.671289 -2.000000 -4.525880" range="0.898175" height="2.000000"></point>
+				<point pos="-4.925848 -2.000000 -3.025619" range="2.362762" height="2.000000"></point>
+				<point pos="-0.275844 -2.000000 -3.872704" range="4.514838" height="2.000000"></point>
+				<point pos="-3.072682 -2.000000 -4.891731" range="2.840289" height="2.000000"></point>
+				<point pos="-1.908048 -2.000000 -3.782540" range="3.602967" height="2.000000"></point>
+				<point pos="-1.793199 -2.000000 -2.346569" range="1.927124" height="2.000000"></point>
+				<point pos="-0.352441 -2.000000 -0.466539" range="2.512790" height="2.000000"></point>
+				<point pos="-4.174037 -2.000000 -2.849613" range="3.808929" height="2.000000"></point>
+				<point pos="-2.041935 -2.000000 -2.061900" range="3.283400" height="2.000000"></point>
+				<point pos="-4.281723 -2.000000 -0.285923" range="2.864999" height="2.000000"></point>
+				<point pos="-0.671559 -2.000000 -4.337247" range="1.841451" height="2.000000"></point>
+				<point pos="-4.559989 -2.000000 -4.573554" range="3.617893" height="2.000000"></point>
+				<point pos="-0.148380 -2.000000 -3.092198" range="0.849559" height="2.000000"></point>
+				<point pos="-4.458233 -2.000000 -4.825342" range="3.724846" height="2.000000"></point>
+				<point pos="-2.416428 -2.000000 -3.420204" range="1.831882" height="2.000000"></point>
+				<point pos="-3.852330 -2.000000 -1.717737" range="4.599076" height="2.000000"></point>
+				<point pos="-1.241407 -2.000000 -4.486272" range="0.311313" height="2.000000"></point>
+				<point pos="-0.544448 -2.000000 -2.980858" range="0.843141" height="2.000000"></point>
+				<point pos="-2.773459 -2.000000 -3.712435" range="2.159806" height="2.000000"></point>
+				<point pos="-2.421008 -2.000000 -2.878511" range="4.956740" height="2.000000"></point>
+				<point pos="-0.149036 -2.000000 -3.875636" range="0.767643" height="2.000000"></point>
+				<point pos="-3.217378 -2.000000 -2.401293" range="1.723053" height="2.000000"></point>
+				<point pos="-1.100067 -2.000000 -0.169192" range="0.024747" height="2.000000"></point>
+				<point pos="-4.743172 -2.000000 -3.575409" range="3.416640" height="2.000000"></point>
+				<point pos="-0.857230 -2.000000 -1.117992" range="3.298862" height="2.000000"></point>
+				<point pos="-1.640246 -2.000000 -1.683823" range="1.114369" height="2.000000"></point>
+				<point pos="-0.395472 -2.000000 -4.685846" range="0.798189" height="2.000000"></point>
+				<point pos="-2.434022 -2.000000 -3.209223" range="4.417178" height="2.000000"></point>
+				<point pos="-4.052396 -2.000000 -2.641581" range="3.991531" height="2.000000"></point>
+				<point pos="-1.347119 -2.000000 -2.920213" range="1.489435" height="2.000000"></point>
+				<point pos="-0.549939 -2.000000 -0.130209" range="0.617504" height="2.000000"></point>
+				<point pos="-3.745398 -2.000000 -3.021670" range="1.270871" height="2.000000"></point>
+				<point pos="-3.304491 -2.000000 -2.901221" range="1.713533" height="2.000000"></point>
+				<point pos="-2.966586 -2.000000 -3.790223" range="3.867194" height="2.000000"></point>
+				<point pos="-4.031441 -2.000000 -1.628087" range="2.496912" height="2.000000"></point>
+				<point pos="-3.622501 -2.000000 -1.682979" range="4.539469" height="2.000000"></point>
+				<point pos="-0.691610 -2.000000 -1.529857" range="4.420743" height="2.000000"></point>
+				<point pos="-0.049354 -2.000000 -3.573896" range="3.746966" height="2.000000"></point>
+				<point pos="-3.457278 -2.000000 -1.638272" range="1.049158" height="2.000000"></point>
+				<point pos="-3.527387 -2.000000 -1.024366" range="0.059933" height="2.000000"></point>
+				<point pos="-3.078521 -2.000000 -2.264129" range="0.062570" height="2.000000"></point>
+				<point pos="-1.326481 -2.000000 -4.311735" range="1.422398" height="2.000000"></point>
+				<point pos="-4.090283 -2.000000 -2.699598" range="0.958083" height="2.000000"></point>
+				<point pos="-0.874505 -2.000000 -4.642263" range="3.642100" height="2.000000"></point>
+				<point pos="-4.182272 -2.000000 -1.650893" range="1.397957" height="2.000000"></point>
+				<point pos="-4.714786 -2.000000 -0.983808" range="1.722378" height="2.000000"></point>
+				<point pos="-0.591831 -2.000000 -4.446586" range="4.517235" height="2.000000"></point>
+				<point pos="-4.376191 -2.000000 -4.151505" range="1.254261" height="2.000000"></point>
+				<point pos="-2.126712 -2.000000 -1.650809" range="1.531486" height="2.000000"></point>
+				<point pos="-2.536587 -2.000000 -0.357417" range="3.000537" height="2.000000"></point>
+				<point pos="-2.666103 -2.000000 -3.211033" range="4.223194" height="2.000000"></point>
+				<point pos="-1.105920 -2.000000 -4.048461" range="0.555242" height="2.000000"></point>
+				<point pos="-4.543615 -2.000000 -4.427012" range="0.348765" height="2.000000"></point>
+				<point pos="-3.930651 -2.000000 -3.744635" range="0.064965" height="2.000000"></point>
+				<point pos="-2.456767 -2.000000 -0.347036" range="1.111960" height="2.000000"></point>
+				<point pos="-3.552177 -2.000000 -0.801599" range="0.492686" height="2.000000"></point>
+				<point pos="-4.844144 -2.000000 -2.311051" range="3.450431" height="2.000000"></point>
+			</container>
+			<container name="lootFloor" lootmax="25">
+				<category name="xKillboxWeapons" />
+				<category name="xMagazines" />
+				<category name="xAmmo" />
+				<point pos="0.959628 -2.000000 -3.050154" range="2.871481" height="2.000000"></point>
+				<point pos="4.857477 -2.000000 -0.068426" range="0.114837" height="2.000000"></point>
+				<point pos="2.508709 -2.000000 -4.919222" range="0.494225" height="2.000000"></point>
+				<point pos="3.801935 -2.000000 -4.245521" range="3.326182" height="2.000000"></point>
+				<point pos="2.540166 -2.000000 -4.404191" range="1.073065" height="2.000000"></point>
+				<point pos="4.875057 -2.000000 -3.338203" range="0.074590" height="2.000000"></point>
+				<point pos="3.118595 -2.000000 -0.948110" range="2.926313" height="2.000000"></point>
+				<point pos="0.360144 -2.000000 -0.257591" range="0.789797" height="2.000000"></point>
+				<point pos="3.415062 -2.000000 -3.331208" range="0.671383" height="2.000000"></point>
+				<point pos="3.580322 -2.000000 -2.002335" range="1.859680" height="2.000000"></point>
+				<point pos="1.080505 -2.000000 -1.673244" range="2.176212" height="2.000000"></point>
+				<point pos="1.469909 -2.000000 -3.642857" range="0.358327" height="2.000000"></point>
+				<point pos="3.058635 -2.000000 -2.904081" range="1.262494" height="2.000000"></point>
+				<point pos="1.718066 -2.000000 -0.473952" range="3.828250" height="2.000000"></point>
+				<point pos="3.234528 -2.000000 -1.365711" range="3.379663" height="2.000000"></point>
+				<point pos="4.316094 -2.000000 -0.022010" range="3.030833" height="2.000000"></point>
+				<point pos="0.122922 -2.000000 -0.316533" range="0.722542" height="2.000000"></point>
+				<point pos="2.432683 -2.000000 -2.553680" range="2.087788" height="2.000000"></point>
+				<point pos="1.128615 -2.000000 -1.172018" range="3.064016" height="2.000000"></point>
+				<point pos="2.152144 -2.000000 -4.678714" range="0.556903" height="2.000000"></point>
+				<point pos="2.804563 -2.000000 -2.220548" range="4.855310" height="2.000000"></point>
+				<point pos="1.184625 -2.000000 -2.903946" range="1.393027" height="2.000000"></point>
+				<point pos="3.021636 -2.000000 -0.890418" range="4.902025" height="2.000000"></point>
+				<point pos="4.571254 -2.000000 -1.812456" range="0.605349" height="2.000000"></point>
+				<point pos="1.629019 -2.000000 -4.243999" range="3.911671" height="2.000000"></point>
+				<point pos="1.575551 -2.000000 -2.729365" range="1.271477" height="2.000000"></point>
+				<point pos="4.537333 -2.000000 -4.812833" range="4.603881" height="2.000000"></point>
+				<point pos="2.935279 -2.000000 -2.195098" range="1.427051" height="2.000000"></point>
+				<point pos="3.686907 -2.000000 -4.378028" range="1.379554" height="2.000000"></point>
+				<point pos="3.212166 -2.000000 -1.174436" range="0.540774" height="2.000000"></point>
+				<point pos="3.243996 -2.000000 -0.980683" range="1.976329" height="2.000000"></point>
+				<point pos="0.982449 -2.000000 -4.521551" range="1.149619" height="2.000000"></point>
+				<point pos="4.475755 -2.000000 -4.838222" range="0.434393" height="2.000000"></point>
+				<point pos="4.101586 -2.000000 -1.578822" range="1.254893" height="2.000000"></point>
+				<point pos="4.989266 -2.000000 -1.381735" range="4.627425" height="2.000000"></point>
+				<point pos="2.831981 -2.000000 -4.962023" range="3.922015" height="2.000000"></point>
+				<point pos="2.805037 -2.000000 -2.146043" range="3.010640" height="2.000000"></point>
+				<point pos="0.408530 -2.000000 -4.822650" range="2.028299" height="2.000000"></point>
+				<point pos="2.673505 -2.000000 -4.336573" range="0.664663" height="2.000000"></point>
+				<point pos="1.397514 -2.000000 -1.831412" range="0.063281" height="2.000000"></point>
+				<point pos="2.903576 -2.000000 -4.367261" range="2.878024" height="2.000000"></point>
+				<point pos="3.763730 -2.000000 -2.906769" range="2.866501" height="2.000000"></point>
+				<point pos="1.446475 -2.000000 -3.977681" range="0.082175" height="2.000000"></point>
+				<point pos="2.671289 -2.000000 -4.525880" range="0.898175" height="2.000000"></point>
+				<point pos="4.925848 -2.000000 -3.025619" range="2.362762" height="2.000000"></point>
+				<point pos="0.275844 -2.000000 -3.872704" range="4.514838" height="2.000000"></point>
+				<point pos="3.072682 -2.000000 -4.891731" range="2.840289" height="2.000000"></point>
+				<point pos="1.908048 -2.000000 -3.782540" range="3.602967" height="2.000000"></point>
+				<point pos="1.793199 -2.000000 -2.346569" range="1.927124" height="2.000000"></point>
+				<point pos="0.352441 -2.000000 -0.466539" range="2.512790" height="2.000000"></point>
+				<point pos="4.174037 -2.000000 -2.849613" range="3.808929" height="2.000000"></point>
+				<point pos="2.041935 -2.000000 -2.061900" range="3.283400" height="2.000000"></point>
+				<point pos="4.281723 -2.000000 -0.285923" range="2.864999" height="2.000000"></point>
+				<point pos="0.671559 -2.000000 -4.337247" range="1.841451" height="2.000000"></point>
+				<point pos="4.559989 -2.000000 -4.573554" range="3.617893" height="2.000000"></point>
+				<point pos="0.148380 -2.000000 -3.092198" range="0.849559" height="2.000000"></point>
+				<point pos="4.458233 -2.000000 -4.825342" range="3.724846" height="2.000000"></point>
+				<point pos="2.416428 -2.000000 -3.420204" range="1.831882" height="2.000000"></point>
+				<point pos="3.852330 -2.000000 -1.717737" range="4.599076" height="2.000000"></point>
+				<point pos="1.241407 -2.000000 -4.486272" range="0.311313" height="2.000000"></point>
+				<point pos="0.544448 -2.000000 -2.980858" range="0.843141" height="2.000000"></point>
+				<point pos="2.773459 -2.000000 -3.712435" range="2.159806" height="2.000000"></point>
+				<point pos="2.421008 -2.000000 -2.878511" range="4.956740" height="2.000000"></point>
+				<point pos="0.149036 -2.000000 -3.875636" range="0.767643" height="2.000000"></point>
+				<point pos="3.217378 -2.000000 -2.401293" range="1.723053" height="2.000000"></point>
+				<point pos="1.100067 -2.000000 -0.169192" range="0.024747" height="2.000000"></point>
+				<point pos="4.743172 -2.000000 -3.575409" range="3.416640" height="2.000000"></point>
+				<point pos="0.857230 -2.000000 -1.117992" range="3.298862" height="2.000000"></point>
+				<point pos="1.640246 -2.000000 -1.683823" range="1.114369" height="2.000000"></point>
+				<point pos="0.395472 -2.000000 -4.685846" range="0.798189" height="2.000000"></point>
+				<point pos="2.434022 -2.000000 -3.209223" range="4.417178" height="2.000000"></point>
+				<point pos="4.052396 -2.000000 -2.641581" range="3.991531" height="2.000000"></point>
+				<point pos="1.347119 -2.000000 -2.920213" range="1.489435" height="2.000000"></point>
+				<point pos="0.549939 -2.000000 -0.130209" range="0.617504" height="2.000000"></point>
+				<point pos="3.745398 -2.000000 -3.021670" range="1.270871" height="2.000000"></point>
+				<point pos="3.304491 -2.000000 -2.901221" range="1.713533" height="2.000000"></point>
+				<point pos="2.966586 -2.000000 -3.790223" range="3.867194" height="2.000000"></point>
+				<point pos="4.031441 -2.000000 -1.628087" range="2.496912" height="2.000000"></point>
+				<point pos="3.622501 -2.000000 -1.682979" range="4.539469" height="2.000000"></point>
+				<point pos="0.691610 -2.000000 -1.529857" range="4.420743" height="2.000000"></point>
+				<point pos="0.049354 -2.000000 -3.573896" range="3.746966" height="2.000000"></point>
+				<point pos="3.457278 -2.000000 -1.638272" range="1.049158" height="2.000000"></point>
+				<point pos="3.527387 -2.000000 -1.024366" range="0.059933" height="2.000000"></point>
+				<point pos="3.078521 -2.000000 -2.264129" range="0.062570" height="2.000000"></point>
+				<point pos="1.326481 -2.000000 -4.311735" range="1.422398" height="2.000000"></point>
+				<point pos="4.090283 -2.000000 -2.699598" range="0.958083" height="2.000000"></point>
+				<point pos="0.874505 -2.000000 -4.642263" range="3.642100" height="2.000000"></point>
+				<point pos="4.182272 -2.000000 -1.650893" range="1.397957" height="2.000000"></point>
+				<point pos="4.714786 -2.000000 -0.983808" range="1.722378" height="2.000000"></point>
+				<point pos="0.591831 -2.000000 -4.446586" range="4.517235" height="2.000000"></point>
+				<point pos="4.376191 -2.000000 -4.151505" range="1.254261" height="2.000000"></point>
+				<point pos="2.126712 -2.000000 -1.650809" range="1.531486" height="2.000000"></point>
+				<point pos="2.536587 -2.000000 -0.357417" range="3.000537" height="2.000000"></point>
+				<point pos="2.666103 -2.000000 -3.211033" range="4.223194" height="2.000000"></point>
+				<point pos="1.105920 -2.000000 -4.048461" range="0.555242" height="2.000000"></point>
+				<point pos="4.543615 -2.000000 -4.427012" range="0.348765" height="2.000000"></point>
+				<point pos="3.930651 -2.000000 -3.744635" range="0.064965" height="2.000000"></point>
+				<point pos="2.456767 -2.000000 -0.347036" range="1.111960" height="2.000000"></point>
+				<point pos="3.552177 -2.000000 -0.801599" range="0.492686" height="2.000000"></point>
+				<point pos="4.844144 -2.000000 -2.311051" range="3.450431" height="2.000000"></point>
+			</container>
+			<container name="lootFloor" lootmax="25">
+				<category name="xKillboxContainers" />
+				<category name="xKillboxClothes" />
+				<category name="xKillboxTools" />
+				<point pos="-0.959628 -2.000000 3.050154" range="2.871481" height="2.000000"></point>
+				<point pos="-4.857477 -2.000000 0.068426" range="0.114837" height="2.000000"></point>
+				<point pos="-2.508709 -2.000000 4.919222" range="0.494225" height="2.000000"></point>
+				<point pos="-3.801935 -2.000000 4.245521" range="3.326182" height="2.000000"></point>
+				<point pos="-2.540166 -2.000000 4.404191" range="1.073065" height="2.000000"></point>
+				<point pos="-4.875057 -2.000000 3.338203" range="0.074590" height="2.000000"></point>
+				<point pos="-3.118595 -2.000000 0.948110" range="2.926313" height="2.000000"></point>
+				<point pos="-0.360144 -2.000000 0.257591" range="0.789797" height="2.000000"></point>
+				<point pos="-3.415062 -2.000000 3.331208" range="0.671383" height="2.000000"></point>
+				<point pos="-3.580322 -2.000000 2.002335" range="1.859680" height="2.000000"></point>
+				<point pos="-1.080505 -2.000000 1.673244" range="2.176212" height="2.000000"></point>
+				<point pos="-1.469909 -2.000000 3.642857" range="0.358327" height="2.000000"></point>
+				<point pos="-3.058635 -2.000000 2.904081" range="1.262494" height="2.000000"></point>
+				<point pos="-1.718066 -2.000000 0.473952" range="3.828250" height="2.000000"></point>
+				<point pos="-3.234528 -2.000000 1.365711" range="3.379663" height="2.000000"></point>
+				<point pos="-4.316094 -2.000000 0.022010" range="3.030833" height="2.000000"></point>
+				<point pos="-0.122922 -2.000000 0.316533" range="0.722542" height="2.000000"></point>
+				<point pos="-2.432683 -2.000000 2.553680" range="2.087788" height="2.000000"></point>
+				<point pos="-1.128615 -2.000000 1.172018" range="3.064016" height="2.000000"></point>
+				<point pos="-2.152144 -2.000000 4.678714" range="0.556903" height="2.000000"></point>
+				<point pos="-2.804563 -2.000000 2.220548" range="4.855310" height="2.000000"></point>
+				<point pos="-1.184625 -2.000000 2.903946" range="1.393027" height="2.000000"></point>
+				<point pos="-3.021636 -2.000000 0.890418" range="4.902025" height="2.000000"></point>
+				<point pos="-4.571254 -2.000000 1.812456" range="0.605349" height="2.000000"></point>
+				<point pos="-1.629019 -2.000000 4.243999" range="3.911671" height="2.000000"></point>
+				<point pos="-1.575551 -2.000000 2.729365" range="1.271477" height="2.000000"></point>
+				<point pos="-4.537333 -2.000000 4.812833" range="4.603881" height="2.000000"></point>
+				<point pos="-2.935279 -2.000000 2.195098" range="1.427051" height="2.000000"></point>
+				<point pos="-3.686907 -2.000000 4.378028" range="1.379554" height="2.000000"></point>
+				<point pos="-3.212166 -2.000000 1.174436" range="0.540774" height="2.000000"></point>
+				<point pos="-3.243996 -2.000000 0.980683" range="1.976329" height="2.000000"></point>
+				<point pos="-0.982449 -2.000000 4.521551" range="1.149619" height="2.000000"></point>
+				<point pos="-4.475755 -2.000000 4.838222" range="0.434393" height="2.000000"></point>
+				<point pos="-4.101586 -2.000000 1.578822" range="1.254893" height="2.000000"></point>
+				<point pos="-4.989266 -2.000000 1.381735" range="4.627425" height="2.000000"></point>
+				<point pos="-2.831981 -2.000000 4.962023" range="3.922015" height="2.000000"></point>
+				<point pos="-2.805037 -2.000000 2.146043" range="3.010640" height="2.000000"></point>
+				<point pos="-0.408530 -2.000000 4.822650" range="2.028299" height="2.000000"></point>
+				<point pos="-2.673505 -2.000000 4.336573" range="0.664663" height="2.000000"></point>
+				<point pos="-1.397514 -2.000000 1.831412" range="0.063281" height="2.000000"></point>
+				<point pos="-2.903576 -2.000000 4.367261" range="2.878024" height="2.000000"></point>
+				<point pos="-3.763730 -2.000000 2.906769" range="2.866501" height="2.000000"></point>
+				<point pos="-1.446475 -2.000000 3.977681" range="0.082175" height="2.000000"></point>
+				<point pos="-2.671289 -2.000000 4.525880" range="0.898175" height="2.000000"></point>
+				<point pos="-4.925848 -2.000000 3.025619" range="2.362762" height="2.000000"></point>
+				<point pos="-0.275844 -2.000000 3.872704" range="4.514838" height="2.000000"></point>
+				<point pos="-3.072682 -2.000000 4.891731" range="2.840289" height="2.000000"></point>
+				<point pos="-1.908048 -2.000000 3.782540" range="3.602967" height="2.000000"></point>
+				<point pos="-1.793199 -2.000000 2.346569" range="1.927124" height="2.000000"></point>
+				<point pos="-0.352441 -2.000000 0.466539" range="2.512790" height="2.000000"></point>
+				<point pos="-4.174037 -2.000000 2.849613" range="3.808929" height="2.000000"></point>
+				<point pos="-2.041935 -2.000000 2.061900" range="3.283400" height="2.000000"></point>
+				<point pos="-4.281723 -2.000000 0.285923" range="2.864999" height="2.000000"></point>
+				<point pos="-0.671559 -2.000000 4.337247" range="1.841451" height="2.000000"></point>
+				<point pos="-4.559989 -2.000000 4.573554" range="3.617893" height="2.000000"></point>
+				<point pos="-0.148380 -2.000000 3.092198" range="0.849559" height="2.000000"></point>
+				<point pos="-4.458233 -2.000000 4.825342" range="3.724846" height="2.000000"></point>
+				<point pos="-2.416428 -2.000000 3.420204" range="1.831882" height="2.000000"></point>
+				<point pos="-3.852330 -2.000000 1.717737" range="4.599076" height="2.000000"></point>
+				<point pos="-1.241407 -2.000000 4.486272" range="0.311313" height="2.000000"></point>
+				<point pos="-0.544448 -2.000000 2.980858" range="0.843141" height="2.000000"></point>
+				<point pos="-2.773459 -2.000000 3.712435" range="2.159806" height="2.000000"></point>
+				<point pos="-2.421008 -2.000000 2.878511" range="4.956740" height="2.000000"></point>
+				<point pos="-0.149036 -2.000000 3.875636" range="0.767643" height="2.000000"></point>
+				<point pos="-3.217378 -2.000000 2.401293" range="1.723053" height="2.000000"></point>
+				<point pos="-1.100067 -2.000000 0.169192" range="0.024747" height="2.000000"></point>
+				<point pos="-4.743172 -2.000000 3.575409" range="3.416640" height="2.000000"></point>
+				<point pos="-0.857230 -2.000000 1.117992" range="3.298862" height="2.000000"></point>
+				<point pos="-1.640246 -2.000000 1.683823" range="1.114369" height="2.000000"></point>
+				<point pos="-0.395472 -2.000000 4.685846" range="0.798189" height="2.000000"></point>
+				<point pos="-2.434022 -2.000000 3.209223" range="4.417178" height="2.000000"></point>
+				<point pos="-4.052396 -2.000000 2.641581" range="3.991531" height="2.000000"></point>
+				<point pos="-1.347119 -2.000000 2.920213" range="1.489435" height="2.000000"></point>
+				<point pos="-0.549939 -2.000000 0.130209" range="0.617504" height="2.000000"></point>
+				<point pos="-3.745398 -2.000000 3.021670" range="1.270871" height="2.000000"></point>
+				<point pos="-3.304491 -2.000000 2.901221" range="1.713533" height="2.000000"></point>
+				<point pos="-2.966586 -2.000000 3.790223" range="3.867194" height="2.000000"></point>
+				<point pos="-4.031441 -2.000000 1.628087" range="2.496912" height="2.000000"></point>
+				<point pos="-3.622501 -2.000000 1.682979" range="4.539469" height="2.000000"></point>
+				<point pos="-0.691610 -2.000000 1.529857" range="4.420743" height="2.000000"></point>
+				<point pos="-0.049354 -2.000000 3.573896" range="3.746966" height="2.000000"></point>
+				<point pos="-3.457278 -2.000000 1.638272" range="1.049158" height="2.000000"></point>
+				<point pos="-3.527387 -2.000000 1.024366" range="0.059933" height="2.000000"></point>
+				<point pos="-3.078521 -2.000000 2.264129" range="0.062570" height="2.000000"></point>
+				<point pos="-1.326481 -2.000000 4.311735" range="1.422398" height="2.000000"></point>
+				<point pos="-4.090283 -2.000000 2.699598" range="0.958083" height="2.000000"></point>
+				<point pos="-0.874505 -2.000000 4.642263" range="3.642100" height="2.000000"></point>
+				<point pos="-4.182272 -2.000000 1.650893" range="1.397957" height="2.000000"></point>
+				<point pos="-4.714786 -2.000000 0.983808" range="1.722378" height="2.000000"></point>
+				<point pos="-0.591831 -2.000000 4.446586" range="4.517235" height="2.000000"></point>
+				<point pos="-4.376191 -2.000000 4.151505" range="1.254261" height="2.000000"></point>
+				<point pos="-2.126712 -2.000000 1.650809" range="1.531486" height="2.000000"></point>
+				<point pos="-2.536587 -2.000000 0.357417" range="3.000537" height="2.000000"></point>
+				<point pos="-2.666103 -2.000000 3.211033" range="4.223194" height="2.000000"></point>
+				<point pos="-1.105920 -2.000000 4.048461" range="0.555242" height="2.000000"></point>
+				<point pos="-4.543615 -2.000000 4.427012" range="0.348765" height="2.000000"></point>
+				<point pos="-3.930651 -2.000000 3.744635" range="0.064965" height="2.000000"></point>
+				<point pos="-2.456767 -2.000000 0.347036" range="1.111960" height="2.000000"></point>
+				<point pos="-3.552177 -2.000000 0.801599" range="0.492686" height="2.000000"></point>
+				<point pos="-4.844144 -2.000000 2.311051" range="3.450431" height="2.000000"></point>
+			</container>
+			<!-- <container name="lootFloor" lootmax="25">
+				<category name="xKillboxContainers" />
+				<category name="xKillboxClothes" />
+				<category name="xKillboxTools" />
+				<point pos="-0.959628 -2.000000 -3.050154" range="2.871481" height="2.000000"></point>
+				<point pos="-4.857477 -2.000000 -0.068426" range="0.114837" height="2.000000"></point>
+				<point pos="-2.508709 -2.000000 -4.919222" range="0.494225" height="2.000000"></point>
+				<point pos="-3.801935 -2.000000 -4.245521" range="3.326182" height="2.000000"></point>
+				<point pos="-2.540166 -2.000000 -4.404191" range="1.073065" height="2.000000"></point>
+				<point pos="-4.875057 -2.000000 -3.338203" range="0.074590" height="2.000000"></point>
+				<point pos="-3.118595 -2.000000 -0.948110" range="2.926313" height="2.000000"></point>
+				<point pos="-0.360144 -2.000000 -0.257591" range="0.789797" height="2.000000"></point>
+				<point pos="-3.415062 -2.000000 -3.331208" range="0.671383" height="2.000000"></point>
+				<point pos="-3.580322 -2.000000 -2.002335" range="1.859680" height="2.000000"></point>
+				<point pos="-1.080505 -2.000000 -1.673244" range="2.176212" height="2.000000"></point>
+				<point pos="-1.469909 -2.000000 -3.642857" range="0.358327" height="2.000000"></point>
+				<point pos="-3.058635 -2.000000 -2.904081" range="1.262494" height="2.000000"></point>
+				<point pos="-1.718066 -2.000000 -0.473952" range="3.828250" height="2.000000"></point>
+				<point pos="-3.234528 -2.000000 -1.365711" range="3.379663" height="2.000000"></point>
+				<point pos="-4.316094 -2.000000 -0.022010" range="3.030833" height="2.000000"></point>
+				<point pos="-0.122922 -2.000000 -0.316533" range="0.722542" height="2.000000"></point>
+				<point pos="-2.432683 -2.000000 -2.553680" range="2.087788" height="2.000000"></point>
+				<point pos="-1.128615 -2.000000 -1.172018" range="3.064016" height="2.000000"></point>
+				<point pos="-2.152144 -2.000000 -4.678714" range="0.556903" height="2.000000"></point>
+				<point pos="-2.804563 -2.000000 -2.220548" range="4.855310" height="2.000000"></point>
+				<point pos="-1.184625 -2.000000 -2.903946" range="1.393027" height="2.000000"></point>
+				<point pos="-3.021636 -2.000000 -0.890418" range="4.902025" height="2.000000"></point>
+				<point pos="-4.571254 -2.000000 -1.812456" range="0.605349" height="2.000000"></point>
+				<point pos="-1.629019 -2.000000 -4.243999" range="3.911671" height="2.000000"></point>
+				<point pos="-1.575551 -2.000000 -2.729365" range="1.271477" height="2.000000"></point>
+				<point pos="-4.537333 -2.000000 -4.812833" range="4.603881" height="2.000000"></point>
+				<point pos="-2.935279 -2.000000 -2.195098" range="1.427051" height="2.000000"></point>
+				<point pos="-3.686907 -2.000000 -4.378028" range="1.379554" height="2.000000"></point>
+				<point pos="-3.212166 -2.000000 -1.174436" range="0.540774" height="2.000000"></point>
+				<point pos="-3.243996 -2.000000 -0.980683" range="1.976329" height="2.000000"></point>
+				<point pos="-0.982449 -2.000000 -4.521551" range="1.149619" height="2.000000"></point>
+				<point pos="-4.475755 -2.000000 -4.838222" range="0.434393" height="2.000000"></point>
+				<point pos="-4.101586 -2.000000 -1.578822" range="1.254893" height="2.000000"></point>
+				<point pos="-4.989266 -2.000000 -1.381735" range="4.627425" height="2.000000"></point>
+				<point pos="-2.831981 -2.000000 -4.962023" range="3.922015" height="2.000000"></point>
+				<point pos="-2.805037 -2.000000 -2.146043" range="3.010640" height="2.000000"></point>
+				<point pos="-0.408530 -2.000000 -4.822650" range="2.028299" height="2.000000"></point>
+				<point pos="-2.673505 -2.000000 -4.336573" range="0.664663" height="2.000000"></point>
+				<point pos="-1.397514 -2.000000 -1.831412" range="0.063281" height="2.000000"></point>
+				<point pos="-2.903576 -2.000000 -4.367261" range="2.878024" height="2.000000"></point>
+				<point pos="-3.763730 -2.000000 -2.906769" range="2.866501" height="2.000000"></point>
+				<point pos="-1.446475 -2.000000 -3.977681" range="0.082175" height="2.000000"></point>
+				<point pos="-2.671289 -2.000000 -4.525880" range="0.898175" height="2.000000"></point>
+				<point pos="-4.925848 -2.000000 -3.025619" range="2.362762" height="2.000000"></point>
+				<point pos="-0.275844 -2.000000 -3.872704" range="4.514838" height="2.000000"></point>
+				<point pos="-3.072682 -2.000000 -4.891731" range="2.840289" height="2.000000"></point>
+				<point pos="-1.908048 -2.000000 -3.782540" range="3.602967" height="2.000000"></point>
+				<point pos="-1.793199 -2.000000 -2.346569" range="1.927124" height="2.000000"></point>
+				<point pos="-0.352441 -2.000000 -0.466539" range="2.512790" height="2.000000"></point>
+				<point pos="-4.174037 -2.000000 -2.849613" range="3.808929" height="2.000000"></point>
+				<point pos="-2.041935 -2.000000 -2.061900" range="3.283400" height="2.000000"></point>
+				<point pos="-4.281723 -2.000000 -0.285923" range="2.864999" height="2.000000"></point>
+				<point pos="-0.671559 -2.000000 -4.337247" range="1.841451" height="2.000000"></point>
+				<point pos="-4.559989 -2.000000 -4.573554" range="3.617893" height="2.000000"></point>
+				<point pos="-0.148380 -2.000000 -3.092198" range="0.849559" height="2.000000"></point>
+				<point pos="-4.458233 -2.000000 -4.825342" range="3.724846" height="2.000000"></point>
+				<point pos="-2.416428 -2.000000 -3.420204" range="1.831882" height="2.000000"></point>
+				<point pos="-3.852330 -2.000000 -1.717737" range="4.599076" height="2.000000"></point>
+				<point pos="-1.241407 -2.000000 -4.486272" range="0.311313" height="2.000000"></point>
+				<point pos="-0.544448 -2.000000 -2.980858" range="0.843141" height="2.000000"></point>
+				<point pos="-2.773459 -2.000000 -3.712435" range="2.159806" height="2.000000"></point>
+				<point pos="-2.421008 -2.000000 -2.878511" range="4.956740" height="2.000000"></point>
+				<point pos="-0.149036 -2.000000 -3.875636" range="0.767643" height="2.000000"></point>
+				<point pos="-3.217378 -2.000000 -2.401293" range="1.723053" height="2.000000"></point>
+				<point pos="-1.100067 -2.000000 -0.169192" range="0.024747" height="2.000000"></point>
+				<point pos="-4.743172 -2.000000 -3.575409" range="3.416640" height="2.000000"></point>
+				<point pos="-0.857230 -2.000000 -1.117992" range="3.298862" height="2.000000"></point>
+				<point pos="-1.640246 -2.000000 -1.683823" range="1.114369" height="2.000000"></point>
+				<point pos="-0.395472 -2.000000 -4.685846" range="0.798189" height="2.000000"></point>
+				<point pos="-2.434022 -2.000000 -3.209223" range="4.417178" height="2.000000"></point>
+				<point pos="-4.052396 -2.000000 -2.641581" range="3.991531" height="2.000000"></point>
+				<point pos="-1.347119 -2.000000 -2.920213" range="1.489435" height="2.000000"></point>
+				<point pos="-0.549939 -2.000000 -0.130209" range="0.617504" height="2.000000"></point>
+				<point pos="-3.745398 -2.000000 -3.021670" range="1.270871" height="2.000000"></point>
+				<point pos="-3.304491 -2.000000 -2.901221" range="1.713533" height="2.000000"></point>
+				<point pos="-2.966586 -2.000000 -3.790223" range="3.867194" height="2.000000"></point>
+				<point pos="-4.031441 -2.000000 -1.628087" range="2.496912" height="2.000000"></point>
+				<point pos="-3.622501 -2.000000 -1.682979" range="4.539469" height="2.000000"></point>
+				<point pos="-0.691610 -2.000000 -1.529857" range="4.420743" height="2.000000"></point>
+				<point pos="-0.049354 -2.000000 -3.573896" range="3.746966" height="2.000000"></point>
+				<point pos="-3.457278 -2.000000 -1.638272" range="1.049158" height="2.000000"></point>
+				<point pos="-3.527387 -2.000000 -1.024366" range="0.059933" height="2.000000"></point>
+				<point pos="-3.078521 -2.000000 -2.264129" range="0.062570" height="2.000000"></point>
+				<point pos="-1.326481 -2.000000 -4.311735" range="1.422398" height="2.000000"></point>
+				<point pos="-4.090283 -2.000000 -2.699598" range="0.958083" height="2.000000"></point>
+				<point pos="-0.874505 -2.000000 -4.642263" range="3.642100" height="2.000000"></point>
+				<point pos="-4.182272 -2.000000 -1.650893" range="1.397957" height="2.000000"></point>
+				<point pos="-4.714786 -2.000000 -0.983808" range="1.722378" height="2.000000"></point>
+				<point pos="-0.591831 -2.000000 -4.446586" range="4.517235" height="2.000000"></point>
+				<point pos="-4.376191 -2.000000 -4.151505" range="1.254261" height="2.000000"></point>
+				<point pos="-2.126712 -2.000000 -1.650809" range="1.531486" height="2.000000"></point>
+				<point pos="-2.536587 -2.000000 -0.357417" range="3.000537" height="2.000000"></point>
+				<point pos="-2.666103 -2.000000 -3.211033" range="4.223194" height="2.000000"></point>
+				<point pos="-1.105920 -2.000000 -4.048461" range="0.555242" height="2.000000"></point>
+				<point pos="-4.543615 -2.000000 -4.427012" range="0.348765" height="2.000000"></point>
+				<point pos="-3.930651 -2.000000 -3.744635" range="0.064965" height="2.000000"></point>
+				<point pos="-2.456767 -2.000000 -0.347036" range="1.111960" height="2.000000"></point>
+				<point pos="-3.552177 -2.000000 -0.801599" range="0.492686" height="2.000000"></point>
+				<point pos="-4.844144 -2.000000 -2.311051" range="3.450431" height="2.000000"></point>
+			</container> -->
 		</group>
 		<group name="Wreck_Mi8" lootmax="15">
 				<usage name="Military" />
@@ -11993,15 +12695,15 @@
 						<point pos="2.554070 -1.697937 4.891639" range="0.925143" height="1.900002" />
 				</container>
 		</group>
-		<group name="Wreck_Mi8_Crashed" lootmax="15">
-				<usage name="Military" />
-				<container name="lootFloor" lootmax="15">
-						<category name="tools" />
-						<category name="containers" />
-						<category name="clothes" />
-						<category name="weapons" />
-						<tag name="floor" />
-						<tag name="shelves" />
+		<group name="Wreck_Mi8_Crashed" lootmax="20">
+				<usage name="xMilitary" />
+				<container name="lootFloor" lootmax="20">
+						<category name="xtools" />
+						<category name="xcontainers" />
+						<category name="xclothes" />
+						<category name="xweapons" />
+						<tag name="xfloor" />
+						<tag name="xshelves" />
 						<point pos="-2.693787 -1.888990 1.671386" range="0.703328" height="2.000000" flags="32" />
 						<point pos="-1.758788 -1.888990 -2.302246" range="0.597443" height="1.493607" flags="32" />
 						<point pos="-5.150909 -1.888990 -4.171387" range="1.199951" height="2.000000" flags="32" />
