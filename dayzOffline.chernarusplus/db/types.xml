@@ -4993,7 +4993,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="xweapons"/>
+        <category name="xKillboxWeapons"/>
         <usage name="xTown"/>
     </type>
     <type name="Deagle_Gold">
@@ -9583,7 +9583,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="xweapons"/>
+        <category name="xKillboxWeapons"/>
         <usage name="xMilitary"/>
         <value name="xTier2"/>
         <value name="xTier3"/>
@@ -9657,7 +9657,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="xweapons"/>
+        <category name="xKillboxWeapons"/>
         <usage name="xContaminatedArea"/>
     </type>
     <type name="M4A1_Black">
@@ -9691,7 +9691,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="xweapons"/>
+        <category name="xKillboxWeapons"/>
         <usage name="xMilitary"/>
     </type>
     <type name="M4_CarryHandleOptic">
@@ -11187,7 +11187,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="xweapons"/>
+        <category name="xKillboxWeapons"/>
         <usage name="xTown"/>
         <usage name="xVillage"/>
         <usage name="xHunting"/>
@@ -11203,7 +11203,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
-        <category name="xweapons"/>
+        <category name="xKillboxWeapons"/>
     </type>
     <type name="Mosin9130_Camo">
         <nominal>100</nominal>
@@ -11214,7 +11214,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
-        <category name="xweapons"/>
+        <category name="xKillboxWeapons"/>
     </type>
     <type name="Mosin9130_Green">
         <nominal>100</nominal>
@@ -11225,7 +11225,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
-        <category name="xweapons"/>
+        <category name="xKillboxWeapons"/>
     </type>
     <type name="Mosin_Bayonet">
         <nominal>100</nominal>
@@ -11443,7 +11443,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="xweapons"/>
+        <category name="xKillboxWeapons"/>
         <usage name="xPolice"/>
     </type>
     <type name="NBCBootsGray">
@@ -13367,7 +13367,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="xweapons"/>
+        <category name="xKillboxWeapons"/>
         <usage name="xMilitary"/>
         <value name="xTier3"/>
         <value name="xTier4"/>
@@ -16484,7 +16484,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="xweapons"/>
+        <category name="xKillboxWeapons"/>
         <usage name="xContaminatedArea"/>
     </type>
     <type name="VitaminBottle">
@@ -16679,7 +16679,22 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="xweapons"/>
+        <category name="xKillboxWeapons"/>
+        <usage name="xHunting"/>
+        <value name="xTier2"/>
+        <value name="xTier3"/>
+        <value name="xTier4"/>
+    </type>
+    <type name="Winchester70_Black">
+        <nominal>100</nominal>
+        <lifetime>28800</lifetime>
+        <restock>1</restock>
+        <min>100</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="xKillboxWeapons"/>
         <usage name="xHunting"/>
         <value name="xTier2"/>
         <value name="xTier3"/>
