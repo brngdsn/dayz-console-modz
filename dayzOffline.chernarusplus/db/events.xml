@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <events>
+
   <!-- DONATORS -->
   <!-- sept/15/2021 -->
   <event name="ItemNPCBirdman">
@@ -322,27 +323,11 @@
       <child lootmax="0" lootmin="0" max="1" min="1" type="SurvivorF_Linda" />
     </children>
   </event>
-  <event name="StaticKillboxBonfire">
-      <nominal>30</nominal>
-      <min>30</min>
-      <max>30</max>
-      <lifetime>100</lifetime>
-      <restock>0</restock>
-      <saferadius>1</saferadius>
-      <distanceradius>1</distanceradius>
-      <cleanupradius>1000</cleanupradius>
-      <flags deletable="0" init_random="0" remove_damaged="1"/>
-      <position>fixed</position>
-      <limit>child</limit>
-      <active>1</active>
-      <children>
-          <child lootmax="32" lootmin="32" max="1" min="1" type="Bonfire"/>
-      </children>
-  </event>
+
   <event name="StaticBonfire">
-    <nominal>7</nominal>
-    <min>7</min>
-    <max>7</max>
+    <nominal>18</nominal>
+    <min>18</min>
+    <max>18</max>
     <lifetime>3888000</lifetime>
     <restock>0</restock>
     <saferadius>0</saferadius>
@@ -356,6 +341,24 @@
       <child lootmax="0" lootmin="0" max="1" min="1" type="Bonfire"/>
     </children>
   </event>
+  <event name="StaticLand_Container_1Bo">
+    <nominal>7</nominal>
+    <min>7</min>
+    <max>7</max>
+    <lifetime>3888000</lifetime>
+    <restock>0</restock>
+    <saferadius>0</saferadius>
+    <distanceradius>0</distanceradius>
+    <cleanupradius>1000</cleanupradius>
+    <flags deletable="0" init_random="0" remove_damaged="0"/>
+    <position>fixed</position>
+    <limit>child</limit>
+    <active>1</active>
+    <children>
+      <child lootmax="0" lootmin="0" max="1" min="1" type="Land_Container_1Bo"/>
+    </children>
+  </event>
+
     <event name="AmbientHen">
         <nominal>3</nominal>
         <min>0</min>
@@ -999,24 +1002,6 @@
         <active>1</active>
         <children/>
     </event>
-    <event name="StaticBonfire">
-        <nominal>20</nominal>
-        <min>0</min>
-        <max>0</max>
-        <lifetime>86400</lifetime>
-        <restock>0</restock>
-        <saferadius>100</saferadius>
-        <distanceradius>5</distanceradius>
-        <cleanupradius>2500</cleanupradius>
-        <secondary>InfectedFirefighter</secondary>
-        <flags deletable="0" init_random="0" remove_damaged="1"/>
-        <position>fixed</position>
-        <limit>child</limit>
-        <active>0</active>
-        <children>
-            <child lootmax="8" lootmin="4" max="20" min="20" type="Bonfire"/>
-        </children>
-    </event>
     <event name="StaticChristmasTree">
         <nominal>13</nominal>
         <min>0</min>
@@ -1067,9 +1052,9 @@
         <children/>
     </event>
     <event name="StaticHeliCrash">
-        <nominal>10</nominal>
-        <min>10</min>
-        <max>10</max>
+        <nominal>11</nominal>
+        <min>11</min>
+        <max>11</max>
         <lifetime>2100</lifetime>
         <restock>1</restock>
         <saferadius>0</saferadius>

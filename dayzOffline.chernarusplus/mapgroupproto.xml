@@ -296,6 +296,42 @@
 		<proxy type="Battery9V" pos="2.25 0.5 0" rpy="0 0 0" />
       </dispatch>
     </group>
+    <group name="Socket_QuickGas_1" lootmax="1">
+      <container name="lootFloor" lootmax="1">
+      </container>
+      <dispatch>
+        <proxy type="BandageDressing" pos="0 0 0" rpy="0 0 0" />
+        <proxy type="BandageDressing" pos="0 0.25 0" rpy="0 0 0" />
+        <proxy type="BandageDressing" pos="0 0.5 0" rpy="0 0 0" />
+        <proxy type="GasMask_Filter" pos="0.25 0 0" rpy="0 0 0" />
+        <proxy type="GasMask_Filter" pos="0.25 0.25 0" rpy="0 0 0" />
+        <proxy type="GasMask_Filter" pos="0.5 0 0" rpy="0 0 0" />
+        <proxy type="GasMask_Filter" pos="0.75 0 0" rpy="0 0 0" />
+        <proxy type="GasMask_Filter" pos="1 0 0" rpy="0 0 0" />
+        <proxy type="GasMask_Filter" pos="1 0.25 0" rpy="0 0 0" />
+        <proxy type="GasMask_Filter" pos="1 0.5 0" rpy="0 0 0" />
+        <proxy type="GasMask_Filter" pos="1.25 0 0" rpy="0 0 0" />
+        <proxy type="GasMask_Filter" pos="1.25 0.25 0" rpy="0 0 0" />
+        <proxy type="TetracyclineAntibiotics" pos="1.25 0.5 0" rpy="0 0 0" />
+        <proxy type="Canteen" pos="1.5 0.0 0" rpy="0 0 0" />
+        <proxy type="VitaminBottle" pos="1.5 0.25 0" rpy="0 0 0" />
+        <proxy type="Morphine" pos="1.5 0.5 0" rpy="0 0 0" />
+        <proxy type="TacticalBaconCan" pos="1.75 0 0" rpy="0 0 0" />
+        <proxy type="CanOpener" pos="1.75 0.25 0" rpy="0 0 0" />
+      </dispatch>
+    </group>
+    <group name="Socket_QuickSurvive_2" lootmax="1">
+      <container name="lootFloor" lootmax="1">
+      </container>
+      <dispatch>
+        <proxy type="GasMask" 		pos="-2 0.25 0" rpy="-90 0 0" />
+        <proxy type="GP5GasMask" 	pos="-1.66 0.25 0" rpy="-90 0 0" />
+        <proxy type="GasMask" 		pos="-1.33 0.25 0" rpy="-90 0 0" />
+        <proxy type="GP5GasMask" 	pos="-1 0.25 0" rpy="-90 0 0" />
+        <proxy type="GasMask" 		pos="-0.66 0.25 0" rpy="-90 0 0" />
+        <proxy type="GP5GasMask" 	pos="-0.33 0.25 0" rpy="-90 0 0" />
+      </dispatch>
+    </group>
 
 	<!-- QUICK CLOTHES -->
     <group name="Socket_QuickClothes_1" lootmax="1">
@@ -11786,22 +11822,7 @@
 				</container>
 		</group>
 		<group name="Land_Container_1Bo" lootmax="1">
-				<usage name="Coast" />
 				<container name="lootFloor" lootmax="1">
-						<category name="tools" />
-						<category name="containers" />
-						<category name="clothes" />
-						<category name="weapons" />
-						<category name="explosives" />
-						<tag name="ground" />
-						<tag name="floor" />
-						<tag name="shelves" />
-						<point pos="0.663979 -1.088016 -0.659087" range="0.361328" height="0.903320" />
-						<point pos="0.621781 -1.088016 0.629470" range="0.427002" height="1.067505" />
-						<point pos="-2.433004 -1.088016 -0.528478" range="0.497559" height="1.243898" />
-						<point pos="-2.375900 -1.088016 0.476913" range="0.502500" height="1.256250" />
-						<point pos="2.026747 -1.088016 0.060489" range="1.000732" height="2.000000" />
-						<point pos="-0.850748 -1.088016 -0.021691" range="1.000977" height="2.000000" />
 				</container>
 		</group>
 		<group name="Land_Container_1Aoh" lootmax="1">
