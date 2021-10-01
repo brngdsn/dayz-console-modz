@@ -1,6 +1,6 @@
 {
   "name": "dayz-mods",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "xml files for console modding",
   "main": "src/index.js",
   "scripts": {
