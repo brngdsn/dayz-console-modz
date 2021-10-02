@@ -1,33 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <map>
-    <group name="Socket_QuickSurvive_2" pos="4387.322266 334.169983 9426.912109" rpy="0 0 0" a="90"/>
-    <group name="Socket_QuickGas_1" pos="4387.322266 334.669983 9426.912109" rpy="0 0 0" a="90"/>
-    <group name="Socket_QuickGas_1" pos="4387.072266 334.669983 9426.912109" rpy="0 0 0" a="90"/>
-    <group name="Socket_QuickGas_1" pos="4386.822266 334.669983 9426.912109" rpy="0 0 0" a="90"/>
-    <group name="Socket_QuickSurvive_2" pos="4628.748535 341.764587 9337.957031" rpy="0 0 0" a="90"/>
-    <group name="Socket_QuickGas_1" pos="4628.748535 342.264587 9337.957031" rpy="0 0 0" a="90"/>
-    <group name="Socket_QuickGas_1" pos="4628.498535 342.264587 9337.957031" rpy="0 0 0" a="90"/>
-    <group name="Socket_QuickGas_1" pos="4628.248535 342.264587 9337.957031" rpy="0 0 0" a="90"/>
-    <group name="Socket_QuickSurvive_2" pos="4791.026855 341.255859 9454.771484" rpy="0 0 0" a="90"/>
-    <group name="Socket_QuickGas_1" pos="4791.026855 341.755859 9454.771484" rpy="0 0 0" a="90"/>
-    <group name="Socket_QuickGas_1" pos="4790.776855 341.755859 9454.771484" rpy="0 0 0" a="90"/>
-    <group name="Socket_QuickGas_1" pos="4790.526855 341.755859 9454.771484" rpy="0 0 0" a="90"/>
-    <group name="Socket_QuickSurvive_2" pos="4798.292969 340.209229 9687.885742" rpy="0 0 0" a="90"/>
-    <group name="Socket_QuickGas_1" pos="4798.292969 340.709229 9687.885742" rpy="0 0 0" a="90"/>
-    <group name="Socket_QuickGas_1" pos="4798.042969 340.709229 9687.885742" rpy="0 0 0" a="90"/>
-    <group name="Socket_QuickGas_1" pos="4797.792969 340.709229 9687.885742" rpy="0 0 0" a="90"/>
-    <group name="Socket_QuickSurvive_2" pos="4613.270996 340.209229 9873.239258" rpy="0 0 0" a="90"/>
-    <group name="Socket_QuickGas_1" pos="4613.270996 340.709229 9873.239258" rpy="0 0 0" a="90"/>
-    <group name="Socket_QuickGas_1" pos="4613.020996 340.709229 9873.239258" rpy="0 0 0" a="90"/>
-    <group name="Socket_QuickGas_1" pos="4612.770996 340.709229 9873.239258" rpy="0 0 0" a="90"/>
-    <group name="Socket_QuickSurvive_2" pos="4403.561035 339.119141 9802.124023" rpy="0 0 0" a="90"/>
-    <group name="Socket_QuickGas_1" pos="4403.561035 339.619141 9802.124023" rpy="0 0 0" a="90"/>
-    <group name="Socket_QuickGas_1" pos="4403.311035 339.619141 9802.124023" rpy="0 0 0" a="90"/>
-    <group name="Socket_QuickGas_1" pos="4403.061035 339.619141 9802.124023" rpy="0 0 0" a="90"/>
-    <group name="Socket_QuickSurvive_2" pos="4316.147461 337.18222 9638.025391" rpy="0 0 0" a="90"/>
-    <group name="Socket_QuickGas_1" pos="4316.147461 337.68222 9638.025391" rpy="0 0 0" a="90"/>
-    <group name="Socket_QuickGas_1" pos="4315.897461 337.68222 9638.025391" rpy="0 0 0" a="90"/>
-    <group name="Socket_QuickGas_1" pos="4315.647461 337.68222 9638.025391" rpy="0 0 0" a="90"/>
+    <group name="Socket_QuickAssualt_1" pos="4941.974121 340.199219 10178.167969" rpy="0 0 0" a="90"/>
+    <group name="Socket_QuickAssualt_1" pos="5121.37207 346.846954 9482.8125" rpy="0 0 0" a="90"/>
+    <group name="Socket_QuickAssualt_1" pos="4051.852295 355.614075 9642.319336" rpy="0 0 0" a="90"/>
+    <group name="Socket_QuickAssualt_1" pos="4153.294922 353.677155 9807.486328" rpy="0 0 0" a="90"/>
+    <group name="Socket_QuickGas_2" pos="4793.598633 340.209229 9684.799805" rpy="0 0 0" a="90"/>
+    <group name="Socket_QuickGas_2" pos="4387.322266 334.169983 9426.912109" rpy="0 0 0" a="90"/>
+    <group name="Socket_QuickGas_2" pos="4628.748535 341.764587 9337.957031" rpy="0 0 0" a="90"/>
+    <group name="Socket_QuickGas_2" pos="4791.026855 341.255859 9454.771484" rpy="0 0 0" a="90"/>
+    <group name="Socket_QuickGas_2" pos="4613.270996 340.209229 9873.239258" rpy="0 0 0" a="90"/>
+    <group name="Socket_QuickGas_2" pos="4403.561035 339.119141 9802.124023" rpy="0 0 0" a="90"/>
+    <group name="Socket_QuickGas_2" pos="4316.147461 337.18222 9638.025391" rpy="0 0 0" a="90"/>
     <group name="Socket_QuickSurvive_1" pos="4423.358398 339.148865 9604.585938" rpy="0 0 127" a="-37"/>
     <group name="Socket_QuickSurvive_1" pos="4411.584961 339.148804 9648.830078" rpy="0 0 -140" a="-130"/>
     <group name="Socket_QuickSurvive_1" pos="4440.227539 339.148804 9647.44043" rpy="0 0 37" a="53"/>

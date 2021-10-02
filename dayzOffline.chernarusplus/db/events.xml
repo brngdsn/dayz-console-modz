@@ -358,6 +358,23 @@
       <child lootmax="0" lootmin="0" max="1" min="1" type="Land_Container_1Bo"/>
     </children>
   </event>
+  <event name="StaticLand_Container_1Mo">
+    <nominal>4</nominal>
+    <min>4</min>
+    <max>4</max>
+    <lifetime>3888000</lifetime>
+    <restock>0</restock>
+    <saferadius>0</saferadius>
+    <distanceradius>0</distanceradius>
+    <cleanupradius>1000</cleanupradius>
+    <flags deletable="0" init_random="0" remove_damaged="0"/>
+    <position>fixed</position>
+    <limit>child</limit>
+    <active>1</active>
+    <children>
+      <child lootmax="0" lootmin="0" max="1" min="1" type="Land_Container_1Mo"/>
+    </children>
+  </event>
 
     <event name="AmbientHen">
         <nominal>3</nominal>

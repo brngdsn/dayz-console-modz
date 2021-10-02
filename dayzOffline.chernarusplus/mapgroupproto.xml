@@ -296,40 +296,130 @@
 		<proxy type="Battery9V" pos="2.25 0.5 0" rpy="0 0 0" />
       </dispatch>
     </group>
-    <group name="Socket_QuickGas_1" lootmax="1">
+
+    <group name="Socket_QuickGas_2" lootmax="1">
       <container name="lootFloor" lootmax="1">
       </container>
       <dispatch>
-        <proxy type="BandageDressing" pos="0 0 0" rpy="0 0 0" />
-        <proxy type="BandageDressing" pos="0 0.25 0" rpy="0 0 0" />
-        <proxy type="BandageDressing" pos="0 0.5 0" rpy="0 0 0" />
-        <proxy type="GasMask_Filter" pos="0.25 0 0" rpy="0 0 0" />
-        <proxy type="GasMask_Filter" pos="0.25 0.25 0" rpy="0 0 0" />
-        <proxy type="GasMask_Filter" pos="0.5 0 0" rpy="0 0 0" />
-        <proxy type="GasMask_Filter" pos="0.75 0 0" rpy="0 0 0" />
-        <proxy type="GasMask_Filter" pos="1 0 0" rpy="0 0 0" />
-        <proxy type="GasMask_Filter" pos="1 0.25 0" rpy="0 0 0" />
-        <proxy type="GasMask_Filter" pos="1 0.5 0" rpy="0 0 0" />
-        <proxy type="GasMask_Filter" pos="1.25 0 0" rpy="0 0 0" />
-        <proxy type="GasMask_Filter" pos="1.25 0.25 0" rpy="0 0 0" />
-        <proxy type="TetracyclineAntibiotics" pos="1.25 0.5 0" rpy="0 0 0" />
-        <proxy type="Canteen" pos="1.5 0.0 0" rpy="0 0 0" />
-        <proxy type="VitaminBottle" pos="1.5 0.25 0" rpy="0 0 0" />
-        <proxy type="Morphine" pos="1.5 0.5 0" rpy="0 0 0" />
-        <proxy type="TacticalBaconCan" pos="1.75 0 0" rpy="0 0 0" />
-        <proxy type="CanOpener" pos="1.75 0.25 0" rpy="0 0 0" />
+        <proxy type="NBCPantsYellow" 		pos="-2 0.25 -0.5" rpy="-90 0 0" />
+        <proxy type="NBCJacketYellow" 		pos="-1.66 0.25 -0.5" rpy="-90 0 0" />
+        <proxy type="NBCHoodYellow" 		pos="-1.33 0.25 -0.5" rpy="-90 0 0" />
+        <proxy type="GP5GasMask" 				pos="-1 0.25 -0.5" rpy="-90 0 0" />
+        <proxy type="GasMask_Filter" 		pos="-0.66 0.25 -0.5" rpy="-90 0 0" />
+        <proxy type="GasMask_Filter" 		pos="-0.66 0.35 -0.5" rpy="-90 0 0" />
+        <proxy type="GasMask_Filter" 		pos="-0.66 0.45 -0.5" rpy="-90 0 0" />
+        <proxy type="NBCBootsYellow" 		pos="-0.33 0.25 -0.5" rpy="-90 0 0" />
+        <proxy type="NBCGlovesYellow" 		pos="0 0.25 -0.5" rpy="-90 0 0" />
+        <proxy type="BandageDressing" 		pos="0.33 0.25 -0.5" rpy="-90 0 0" />
+        <proxy type="BandageDressing" 		pos="0.33 0.35 -0.5" rpy="-90 0 0" />
+        <proxy type="BandageDressing" 		pos="0.33 0.45 -0.5" rpy="-90 0 0" />
+        <proxy type="SalineBagIV" 			pos="0.66 0.25 -0.5" rpy="-90 0 0" />
+        <proxy type="SalineBagIV" 			pos="0.66 0.35 -0.5" rpy="-90 0 0" />
+        <proxy type="NBCPantsYellow" 		pos="-2 0.25 0.5" rpy="-90 0 0" />
+        <proxy type="NBCJacketYellow" 		pos="-1.66 0.25 0.5" rpy="-90 0 0" />
+        <proxy type="NBCHoodYellow" 		pos="-1.33 0.25 0.5" rpy="-90 0 0" />
+        <proxy type="GP5GasMask" 				pos="-1 0.25 0.5" rpy="-90 0 0" />
+        <proxy type="GasMask_Filter" 		pos="-0.66 0.25 0.5" rpy="-90 0 0" />
+        <proxy type="GasMask_Filter" 		pos="-0.66 0.35 0.5" rpy="-90 0 0" />
+        <proxy type="GasMask_Filter" 		pos="-0.66 0.45 0.5" rpy="-90 0 0" />
+        <proxy type="NBCBootsYellow" 		pos="-0.33 0.25 0.5" rpy="-90 0 0" />
+        <proxy type="NBCGlovesYellow" 		pos="0 0.25 0.5" rpy="-90 0 0" />
+        <proxy type="BandageDressing" 		pos="0.33 0.25 0.5" rpy="-90 0 0" />
+        <proxy type="BandageDressing" 		pos="0.33 0.35 0.5" rpy="-90 0 0" />
+        <proxy type="BandageDressing" 		pos="0.33 0.45 0.5" rpy="-90 0 0" />
+        <proxy type="SalineBagIV" 			pos="0.66 0.25 0.5" rpy="-90 0 0" />
+        <proxy type="SalineBagIV" 			pos="0.66 0.35 0.5" rpy="-90 0 0" />
       </dispatch>
     </group>
-    <group name="Socket_QuickSurvive_2" lootmax="1">
+
+    <group name="Socket_QuickAssualt_1" lootmax="1">
       <container name="lootFloor" lootmax="1">
       </container>
       <dispatch>
-        <proxy type="GasMask" 		pos="-2 0.25 0" rpy="-90 0 0" />
-        <proxy type="GP5GasMask" 	pos="-1.66 0.25 0" rpy="-90 0 0" />
-        <proxy type="GasMask" 		pos="-1.33 0.25 0" rpy="-90 0 0" />
-        <proxy type="GP5GasMask" 	pos="-1 0.25 0" rpy="-90 0 0" />
-        <proxy type="GasMask" 		pos="-0.66 0.25 0" rpy="-90 0 0" />
-        <proxy type="GP5GasMask" 	pos="-0.33 0.25 0" rpy="-90 0 0" />
+        <proxy type="GhillieBushrag_Woodland" 	pos="-2.33 0.25 -0.5" rpy="0 0 0" />
+        <proxy type="NBCPantsGray" 					pos="-2 0.25 -0.5" rpy="-90 0 0" />
+        <proxy type="NBCJacketGray" 				pos="-1.66 0.25 -0.5" rpy="-90 0 0" />
+        <proxy type="NBCHoodGray" 					pos="-1.33 0.25 -0.5" rpy="-90 0 0" />
+        <proxy type="GP5GasMask" 					pos="-1 0.25 -0.5" rpy="-90 0 0" />
+        <proxy type="GasMask_Filter" 			pos="-0.66 0.25 -0.5" rpy="-90 0 0" />
+        <proxy type="GasMask_Filter" 			pos="-0.66 0.35 -0.5" rpy="-90 0 0" />
+        <proxy type="GasMask_Filter" 			pos="-0.66 0.45 -0.5" rpy="-90 0 0" />
+        <proxy type="NBCBootsGray" 					pos="-0.33 0.25 -0.5" rpy="-90 0 0" />
+        <proxy type="NBCGlovesGray" 				pos="0 0.25 -0.5" rpy="-90 0 0" />
+        <proxy type="BandageDressing" 			pos="0.33 0.25 -0.5" rpy="-90 0 0" />
+        <proxy type="BandageDressing" 			pos="0.33 0.35 -0.5" rpy="-90 0 0" />
+        <proxy type="BandageDressing" 			pos="0.33 0.45 -0.5" rpy="-90 0 0" />
+        <proxy type="SalineBagIV" 				pos="0.66 0.25 -0.5" rpy="-90 0 0" />
+        <proxy type="SalineBagIV" 				pos="0.66 0.35 -0.5" rpy="-90 0 0" />
+        <proxy type="PainkillerTablets" 		pos="1 0.25 -0.5" rpy="-90 0 0" />
+        <proxy type="Morphine" 					pos="1 0.45 -0.5" rpy="-90 0 0" />
+        <proxy type="TetracyclineAntibiotics" 	pos="1 0.65 -0.5" rpy="-90 0 0" />
+        <proxy type="VitaminBottle" 			pos="1 0.85 -0.5" rpy="-90 0 0" />
+        <proxy type="Canteen" 					pos="1.33 0.25 -0.5" rpy="-90 0 0" />
+        <proxy type="TacticalBaconCan_Opened" 	pos="1.33 0.45 -0.5" rpy="-90 0 0" />
+        <proxy type="TacticalBaconCan_Opened" 	pos="1.33 0.65 -0.5" rpy="-90 0 0" />
+        <proxy type="NVGHeadstrap" 				pos="1.66 0.25 -0.5" rpy="-90 0 0" />
+        <proxy type="NVGoggles" 				pos="1.66 0.65 -0.5" rpy="-90 0 0" />
+        <proxy type="Battery9V" 				pos="1.66 0.85 -0.5" rpy="-90 0 0" />
+        <proxy type="M4A1" 				pos="2.0 0.25 -0.5" rpy="-90 0 0" />
+        <proxy type="M4_Suppressor" 			pos="2.0 0.25 -0.25" rpy="-90 0 0" />
+        <proxy type="M4_Suppressor" 			pos="2.0 0.35 -0.25" rpy="-90 0 0" />
+        <proxy type="Mag_STANAGCoupled_30Rnd" 	pos="2.0 0.65 -0.5" rpy="-90 0 0" />
+        <proxy type="Mag_STANAGCoupled_30Rnd" 	pos="2.0 0.75 -0.5" rpy="-90 0 0" />
+        <proxy type="Mag_STANAGCoupled_30Rnd" 	pos="2.0 0.85 -0.5" rpy="-90 0 0" />
+        <proxy type="Mag_STANAGCoupled_30Rnd" 	pos="2.0 0.95 -0.5" rpy="-90 0 0" />
+        <proxy type="Mag_STANAGCoupled_30Rnd" 	pos="2.0 1.05 -0.5" rpy="-90 0 0" />
+        <proxy type="Mosin9130" 			pos="2.33 0.25 -0.5" rpy="-90 0 0" />
+        <proxy type="Ammo_762x54" 				pos="2.33 0.65 -0.5" rpy="0 0 0" />
+        <proxy type="Ammo_762x54" 				pos="2.33 0.75 -0.5" rpy="0 0 0" />
+        <proxy type="Ammo_762x54" 				pos="2.33 0.85 -0.5" rpy="0 0 0" />
+        <proxy type="Ammo_762x54Tracer" 		pos="2.33 0.95 -0.5" rpy="0 0 0" />
+        <proxy type="ImprovisedSuppressor" 		pos="2.33 0.25 -0.25" rpy="-90 0 0" />
+        <proxy type="ImprovisedSuppressor" 		pos="2.33 0.35 -0.25" rpy="-90 0 0" />
+        <proxy type="ImprovisedSuppressor" 		pos="2.33 0.45 -0.25" rpy="-90 0 0" />
+        <proxy type="ImprovisedSuppressor" 		pos="2.33 0.55 -0.25" rpy="-90 0 0" />
+		<proxy type="GhillieBushrag_Woodland" 	pos="-2.33 0.25 0.5" rpy="0 0 0" />
+        <proxy type="NBCPantsGray" 					pos="-2 0.25 0.5" rpy="-90 0 0" />
+        <proxy type="NBCJacketGray" 				pos="-1.66 0.25 0.5" rpy="-90 0 0" />
+        <proxy type="NBCHoodGray" 					pos="-1.33 0.25 0.5" rpy="-90 0 0" />
+        <proxy type="GP5GasMask" 					pos="-1 0.25 0.5" rpy="-90 0 0" />
+        <proxy type="GasMask_Filter" 			pos="-0.66 0.25 0.5" rpy="-90 0 0" />
+        <proxy type="GasMask_Filter" 			pos="-0.66 0.35 0.5" rpy="-90 0 0" />
+        <proxy type="GasMask_Filter" 			pos="-0.66 0.45 0.5" rpy="-90 0 0" />
+        <proxy type="NBCBootsGray" 					pos="-0.33 0.25 0.5" rpy="-90 0 0" />
+        <proxy type="NBCGlovesGray" 				pos="0 0.25 0.5" rpy="-90 0 0" />
+        <proxy type="BandageDressing" 			pos="0.33 0.25 0.5" rpy="-90 0 0" />
+        <proxy type="BandageDressing" 			pos="0.33 0.35 0.5" rpy="-90 0 0" />
+        <proxy type="BandageDressing" 			pos="0.33 0.45 0.5" rpy="-90 0 0" />
+        <proxy type="SalineBagIV" 				pos="0.66 0.25 0.5" rpy="-90 0 0" />
+        <proxy type="SalineBagIV" 				pos="0.66 0.35 0.5" rpy="-90 0 0" />
+        <proxy type="PainkillerTablets" 		pos="1 0.25 0.5" rpy="-90 0 0" />
+        <proxy type="Morphine" 					pos="1 0.45 0.5" rpy="-90 0 0" />
+        <proxy type="TetracyclineAntibiotics" 	pos="1 0.65 0.5" rpy="-90 0 0" />
+        <proxy type="VitaminBottle" 			pos="1 0.85 0.5" rpy="-90 0 0" />
+        <proxy type="Canteen" 					pos="1.33 0.25 0.5" rpy="-90 0 0" />
+        <proxy type="TacticalBaconCan_Opened" 	pos="1.33 0.45 0.5" rpy="-90 0 0" />
+        <proxy type="TacticalBaconCan_Opened" 	pos="1.33 0.65 0.5" rpy="-90 0 0" />
+        <proxy type="NVGHeadstrap" 				pos="1.66 0.25 0.5" rpy="-90 0 0" />
+        <proxy type="NVGoggles" 				pos="1.66 0.65 0.5" rpy="-90 0 0" />
+        <proxy type="Battery9V" 				pos="1.66 0.85 0.5" rpy="-90 0 0" />
+        <proxy type="M4A1" 				pos="2.0 0.25 0.5" rpy="-90 0 0" />
+        <proxy type="M4_Suppressor" 			pos="2.0 0.25 0.25" rpy="-90 0 0" />
+        <proxy type="M4_Suppressor" 			pos="2.0 0.35 0.25" rpy="-90 0 0" />
+        <proxy type="Mag_STANAGCoupled_30Rnd" 	pos="2.0 0.65 0.5" rpy="-90 0 0" />
+        <proxy type="Mag_STANAGCoupled_30Rnd" 	pos="2.0 0.75 0.5" rpy="-90 0 0" />
+        <proxy type="Mag_STANAGCoupled_30Rnd" 	pos="2.0 0.85 0.5" rpy="-90 0 0" />
+        <proxy type="Mag_STANAGCoupled_30Rnd" 	pos="2.0 0.95 0.5" rpy="-90 0 0" />
+        <proxy type="Mag_STANAGCoupled_30Rnd" 	pos="2.0 1.05 0.5" rpy="-90 0 0" />
+        <proxy type="Mosin9130_Black" 			pos="2.33 0.25 0.5" rpy="-90 0 0" />
+        <proxy type="Ammo_762x54" 				pos="2.33 0.65 0.5" rpy="0 0 0" />
+        <proxy type="Ammo_762x54" 				pos="2.33 0.75 0.5" rpy="0 0 0" />
+        <proxy type="Ammo_762x54" 				pos="2.33 0.85 0.5" rpy="0 0 0" />
+        <proxy type="Ammo_762x54Tracer" 		pos="2.33 0.95 0.5" rpy="0 0 0" />
+        <proxy type="ImprovisedSuppressor" 		pos="2.33 0.25 0.25" rpy="-90 0 0" />
+        <proxy type="ImprovisedSuppressor" 		pos="2.33 0.35 0.25" rpy="-90 0 0" />
+        <proxy type="ImprovisedSuppressor" 		pos="2.33 0.45 0.25" rpy="-90 0 0" />
+        <proxy type="ImprovisedSuppressor" 		pos="2.33 0.55 0.25" rpy="-90 0 0" />
       </dispatch>
     </group>
 

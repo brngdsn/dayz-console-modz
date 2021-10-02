@@ -9681,6 +9681,7 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
         <category name="xweapons"/>
+        <usage name="xContaminatedArea"/>
     </type>
     <type name="M4_CQBBttstck">
         <nominal>100</nominal>
@@ -11204,6 +11205,11 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
         <category name="xKillboxWeapons"/>
+        <usage name="xTown"/>
+        <usage name="xVillage"/>
+        <usage name="xHunting"/>
+        <value name="xTier2"/>
+        <value name="xTier3"/>
     </type>
     <type name="Mosin9130_Camo">
         <nominal>100</nominal>
@@ -11215,6 +11221,11 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
         <category name="xKillboxWeapons"/>
+        <usage name="xTown"/>
+        <usage name="xVillage"/>
+        <usage name="xHunting"/>
+        <value name="xTier2"/>
+        <value name="xTier3"/>
     </type>
     <type name="Mosin9130_Green">
         <nominal>100</nominal>
@@ -11226,6 +11237,11 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
         <category name="xKillboxWeapons"/>
+        <usage name="xTown"/>
+        <usage name="xVillage"/>
+        <usage name="xHunting"/>
+        <value name="xTier2"/>
+        <value name="xTier3"/>
     </type>
     <type name="Mosin_Bayonet">
         <nominal>100</nominal>
@@ -13406,7 +13422,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
-        <category name="xtools"/>
+        <category name="xTools"/>
     </type>
     <type name="SaltySticks">
         <nominal>100</nominal>
